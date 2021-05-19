@@ -10,3 +10,56 @@ body {
     width: 100%;
     height: 100vh;
 }
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+img {
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header {
+    background: aqua;
+    color: #fff;
+    padding: 45px 0;
+    width: 500px;
+    height: 20vh;
+}
+
+.section-one {
+ width: 100vw;
+ height: 75vh;
+ background-color: orchid;
+}
+.section--container {
+    width: 100%;
+    height: 100%;
+}
+.section--container img {
+    object-fit: cover;
+    width: 100%;
+    max-width: 950px;
+    min-width: 400px;
+    max-height: 250px;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.container {
+    width: 350px;
+    margin: 0 auto;
+}
+strong {
+    color: blue;
+}
+.section--container a {
+    color: red;
+}
+
+
+              /* ======VIEWPORT-vw-vh-vmin-vmax====RESPONSIVE*/
