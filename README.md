@@ -5,10 +5,16 @@ CSS Courses with Responsive Web and Animation and Sass
 - [FreeCodeCamp](https://www.youtube.com/watch?v=srvUrASNj0s&t=13s)
 - [freecodecamp-site](https://www.freecodecamp.org/)
 - [Platzi](https://platzi.com/home)
+- [Kevin Powel](https://www.youtube.com/kepowob/videos)
 
 # Inspiration Web Site
 - [Awwards](https://www.awwwards.com/)
 
+# Palette Colors
+- [Adobe Colors](https://color.adobe.com/es/create/color-wheel)
+# Fonts
+- [Adobe Fonts](https://fonts.adobe.com/)
+- [Google Fonts](https://fonts.google.com/)
 # NPM 
 - [npm](https://www.npmjs.com/)
 
