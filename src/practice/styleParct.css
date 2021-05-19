@@ -42,6 +42,8 @@ img {
     background-repeat: no-repeat;
     
     max-width: 100%;
+    width: 100%;
+    height: 20rem;
 }
 h1 {
     font-size: clamp(1em, 2.5vw, 3em);
@@ -55,7 +57,12 @@ span {
 h2 {
     font-size: clamp(.5em, 1.5vw, 2em);
     color: var(--clr-three);
-
+}
+p {
+    margin-top: 0;
+    font-size: 1.2rem;
+    letter-spacing: 1;
+    
 }
 .container {
     width: 90%;
@@ -64,4 +71,10 @@ h2 {
 }
 .columns {
     display: flex;
+    margin: 1em .5em;
+}
+.col-bg {
+    padding: .5em;
+    background: var(--clr-four);
+    color: var(--clr-one);
 }
