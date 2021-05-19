@@ -12,6 +12,9 @@ CSS Courses with Responsive Web and Animation and Sass
 
 # Palette Colors
 - [Adobe Colors](https://color.adobe.com/es/create/color-wheel)
+- [Coolors](https://coolors.co/)
+- [Gradients](https://mycolor.space/gradient3)
+- [Webgradients](https://webgradients.com/)
 # Fonts
 - [Adobe Fonts](https://fonts.adobe.com/)
 - [Google Fonts](https://fonts.google.com/)
@@ -26,6 +29,17 @@ CSS Courses with Responsive Web and Animation and Sass
 - [Tinify-CDN](https://tinify.com/cdn)
 # Icons
 - [FontAwesome](https://fontawesome.com/)
+
+# Image
+- [TinyPng](https://tinypng.com/)
+- [Unsplash](https://unsplash.com/)
+- [Pexels](https://www.pexels.com/)
+- [Envato](https://envato.com/)
+
+# 
+# Markdown
+- [Markdown](https://markdown.es/)
+- [Editor Md](https://pandao.github.io/editor.md/index.html)
 
 # MediaQueries
 - [Mydevice](https://www.mydevice.io/#compare-devices)

@@ -1,4 +1,5 @@
 :root {
+   /*  color */
  --clr-one:#F2F2F2; 
  --clr-two: #A6A6A6; 
  --clr-three: #595959; 
@@ -8,6 +9,7 @@
  --clr-white: #ffffff; 
  --clr-black: #000000; 
 
+   /* Typography */
  --font-size-title: 3em; 
  --font-size-titleTwo: 1.5em; 
 }
@@ -23,6 +25,9 @@ body {
     width: 100%;
     height: 100vh;
     font-family: 'Newsreader', serif;
+    font-size: 1.125rem;
+    margin: 0;
+    color: var(--clr-three);
 }
 ul {
     list-style: none;
@@ -35,11 +40,28 @@ img {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    
+    max-width: 100%;
+}
+h1 {
+    font-size: clamp(1em, 2.5vw, 3em);
+    color: var(--clr-five);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+span {
+    color: var(--clr-two);
+}
+h2 {
+    font-size: clamp(.5em, 1.5vw, 2em);
+    color: var(--clr-three);
+
 }
 .container {
+    width: 90%;
     max-width: 980px;
+    margin: 0 auto;
 }
-.container img {
-    width: 50rem;
-    height: 20.5rem;
+.columns {
+    display: flex;
 }
