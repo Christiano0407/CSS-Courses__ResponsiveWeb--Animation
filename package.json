@@ -4,7 +4,7 @@
   "description": "projects with css and sass",
   "main": "src/js/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "practice": "node src/js/index.js"
   },
   "repository": {
     "type": "git",
