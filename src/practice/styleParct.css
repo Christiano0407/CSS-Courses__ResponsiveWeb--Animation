@@ -28,6 +28,7 @@ body {
     font-size: 1.125rem;
     margin: 0;
     color: var(--clr-three);
+    background: lightsalmon;
 }
 ul {
     list-style: none;
@@ -61,7 +62,7 @@ h2 {
 p {
     margin-top: 0;
     font-size: 1.2rem;
-    letter-spacing: 1;
+    letter-spacing: .1rem;
     
 }
 .container {
@@ -71,10 +72,49 @@ p {
 }
 .columns {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin: 1em .5em;
 }
 .col-bg {
     padding: .5em;
     background: var(--clr-four);
     color: var(--clr-one);
+}
+.col-1 {
+ width: 25%;
+}
+.col-2 {
+width: 50%;
+}
+.col-3 {
+width: 75%;
+}
+
+                         /*==== Viwports=== */
+
+/*  min-width 400px and bigger   */             
+@media (min-width: 400px) and (max-width: 649px) {
+    body {
+        background: lightgreen;
+    }
+    p {
+        color: red;
+    }
+}
+
+/*  min-width 650px and bigger   */
+@media screen and (min-width: 650px) {
+    body {
+        background:lightpink;
+    }
+    p {
+        color: yellow;
+    }
+}
+
+@media (min-width: 755px) and (orientation: landscape) {
+    body {
+        background-color: slateblue;
+    }
 }

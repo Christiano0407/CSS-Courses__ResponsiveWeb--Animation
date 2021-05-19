@@ -44,6 +44,10 @@ CSS Courses with Responsive Web and Animation and Sass
 # MediaQueries
 - [Mydevice](https://www.mydevice.io/#compare-devices)
 - [Mediaqueri](https://mediaqueri.es/)
+- [Responsive-viewer](https://chrome.google.com/webstore/detail/responsive-viewer/inmopeiepgfljkpkidclfgbgbmfcennb)
+- Media Type: screen, print, speech.
+- Media Condition: width, orientation, Specific features. 
+
 # Tools CSS-Responsive
 - [MediaQueri](https://mediaqueri.es/)
 - [CSS-Tricks](https://css-tricks.com/)
