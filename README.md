@@ -8,6 +8,22 @@ CSS Courses with Responsive Web and Animation and Sass
 
 # Inspiration Web Site
 - [Awwards](https://www.awwwards.com/)
+
+# NPM 
+- [npm](https://www.npmjs.com/)
+
+# Gsap
+- [gsap-animation](https://greensock.com/gsap/)
+
+# CDN
+- [CDNjs](https://cdnjs.com/)
+- [Tinify-CDN](https://tinify.com/cdn)
+# Icons
+- [FontAwesome](https://fontawesome.com/)
+
+# MediaQueries
+- [Mydevice](https://www.mydevice.io/#compare-devices)
+- [Mediaqueri](https://mediaqueri.es/)
 # Tools CSS-Responsive
 - [MediaQueri](https://mediaqueri.es/)
 - [CSS-Tricks](https://css-tricks.com/)
@@ -22,8 +38,10 @@ CSS Courses with Responsive Web and Animation and Sass
 - [getwaves](https://getwaves.io/)
 - [mycolor-gradients](https://mycolor.space/gradient3)
 - [webgradients](https://webgradients.com/)
-- [](https://cssreference.io/)
+- [CSS-references](https://cssreference.io/)
 
+# Materials
+- [Material](https://material.io/)
 # References 
 - [Majo-Ledesma](https://losapuntesdemajo.vercel.app/)
 # Tips CSS:
