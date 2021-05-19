@@ -92,14 +92,69 @@ width: 75%;
 }
 
                          /*==== Viwports=== */
+@media (min-width: 320px) and (max-width: 399px) {
+    body {
+        background: white;
+    }
+    .columns {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+    .col-1, .col-2, .col-3 {
+        width: 100%;
+        padding: .2rem;
+        margin-bottom: 1rem;
+    }
+    h1 {
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 1rem 0;
+    }
+    h2 {
+    margin: .5rem 0;
+    text-align: center;
+    font-size: 1.4rem;
+    }
+    p {
+        padding: .5rem;
+    }
+    .container img {
+        border-radius: 1rem;
+    }
+}
 
 /*  min-width 400px and bigger   */             
 @media (min-width: 400px) and (max-width: 649px) {
     body {
-        background: lightgreen;
+        background: lightskyblue;
     }
     p {
-        color: red;
+        color: lightcyan;
+    }
+    .columns {
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .col-1, .col-2, .col-3 {
+        width: 100%;
+        margin: .5rem 0;
+        padding: .5rem;
+    }
+    h1 {
+        margin: 1rem 0;
+        font-size: 1.8rem;
+        text-align: center;
+    }
+    h2 {
+        font-size: 1.6rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+    .container img {
+        border-radius: 1rem;
     }
 }
 
