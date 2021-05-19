@@ -90,6 +90,12 @@ width: 50%;
 .col-3 {
 width: 75%;
 }
+/* nav a { */
+/*  padding: .25em 0; */
+/* } */
+/* .nav-link-page { */
+/*     border: 1px solid red; */
+/* } */
 
                          /*==== Viwports=== */
 @media (min-width: 320px) and (max-width: 399px) {
@@ -239,6 +245,7 @@ width: 75%;
     }
 }
 
+           /*Min-width:755px-orientation*/
 @media (min-width: 755px) and (orientation: landscape) {
     body {
         background-color: slateblue;
