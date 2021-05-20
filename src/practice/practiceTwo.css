@@ -44,8 +44,8 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    width: 350px;
-    height: 250px;
+    max-width: 100%;
+    display: block;
 }
 h1, h2, h3{
     font-family: 'Newsreader', serif;
@@ -63,6 +63,8 @@ h3 {
 }
 strong {
     color: var(--clr-pageTwo);
+    font-weight: 700;
+    
 }
 .article-title {
   color: var(--clr-four);
@@ -87,4 +89,21 @@ strong {
     color: var(--clr-two);
     text-decoration: underline;
 }
-            /*======= MEDIAQUERIES ==== VIWPORT ======*/
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.container-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+main {
+ width: 75%;
+}
+
+aside {
+ width: 20%;
+}
+    /*======= MEDIAQUERIES ==== VIWPORT ====== MOBILEFIRST=====*/
