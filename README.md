@@ -46,7 +46,11 @@ CSS Courses with Responsive Web and Animation and Sass
 - [Responsive-viewer](https://chrome.google.com/webstore/detail/responsive-viewer/inmopeiepgfljkpkidclfgbgbmfcennb)
 - Media Type: screen, print, speech.
 - Media Condition: width, orientation, Specific features. 
-
+- Mobile: 425px
+- Tablet: 768px
+- Laptop: 1024px
+- Laptop L: 1440px
+- 4k: 2560px
 # Tools CSS-Responsive
 - [MediaQueri](https://mediaqueri.es/)
 - [CSS-Tricks](https://css-tricks.com/)
