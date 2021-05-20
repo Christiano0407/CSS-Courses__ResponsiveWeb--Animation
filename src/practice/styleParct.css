@@ -102,6 +102,12 @@ width: 75%;
     body {
         background: white;
     }
+    .container {
+        width: 90%;
+        max-width: 900px;
+        border: solid 1px red;
+        margin: 0 auto;
+    }
     .columns {
         display: flex;
         justify-content: space-between;
@@ -249,5 +255,19 @@ width: 75%;
 @media (min-width: 755px) and (orientation: landscape) {
     body {
         background-color: slateblue;
+    }
+    .container-header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .site-title {
+        margin: 1rem;
+    }
+    .site-title h1 {
+        font-size: 1.2rem;
+    }
+    .site-title p {
+        font-size: .6rem;
     }
 }
