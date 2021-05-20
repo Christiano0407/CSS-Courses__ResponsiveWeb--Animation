@@ -8,6 +8,10 @@
  
   --clr-white: #ffffff; 
   --clr-black: #000000; 
+
+  --clr-pageOne: #707070; 
+  --clr-pageTwo: #1792d2; 
+  --clr-pageThree: #143774; 
  
     /* Typography */
   --font-size-small: 1.2rem; 
@@ -40,4 +44,6 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    width: 350px;
+    height: 250px;
 }
