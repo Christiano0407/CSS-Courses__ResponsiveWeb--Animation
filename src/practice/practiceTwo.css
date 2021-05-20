@@ -47,3 +47,44 @@
     width: 350px;
     height: 250px;
 }
+h1, h2, h3{
+    font-family: 'Newsreader', serif;
+    font-weight: bold;
+    color: var(--clr-five);
+}
+h1 {
+    font-size: var(--font-size-title);
+}
+h2 {
+    font-size: var(--font-size-medium-up);
+}
+h3 {
+    font-size: var(--font-size-medium);
+}
+strong {
+    color: var(--clr-pageTwo);
+}
+.article-title {
+  color: var(--clr-four);
+  font-size: climp(1.5rem, 2.5vw, 3rem);
+}
+.article-info a {
+    margin: 0;
+    font-weight: bolder;
+    color: var(--clr-pageThree);
+    cursor: pointer;
+}
+.article-read-more, .article-info {
+    font-size: .880rem;
+}
+.article-read-more {
+    color: var(--clr-pageOne);
+    text-decoration: none;
+    font-weight: 700;
+}
+.article-read-more:hover, 
+.article-read-more:focus {
+    color: var(--clr-two);
+    text-decoration: underline;
+}
+            /*======= MEDIAQUERIES ==== VIWPORT ======*/
