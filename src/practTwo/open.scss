@@ -50,7 +50,10 @@ h1 {
 }
 p, li, label, input, textarea {
     font-family: 'Roboto Mono', monospace;
-  }
+}
+/* i { */
+/*     color: #ffffff; */
+/* } */
 
 /* .container { */
 /*   width: 100%; */
@@ -64,7 +67,7 @@ p, li, label, input, textarea {
 /* } */
 .container {
     width: 100%;
-    height: 100%;
+    height: 100vh;
 }
 
 #size {
@@ -74,6 +77,101 @@ p, li, label, input, textarea {
  transform: translateX(-40px);
  color: red;
 }
+.header {
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 .5rem;
+
+    &__logo {
+    font-size: var(--font-size-title);
+    font-weight: bold;
+    }
+    &__menu {
+      display: flex;
+      flex-direction: row;
+      font-size: var(--font-size-medium-up);
+      gap: 1.5rem;
+    }
+}
+.main {
+ height: 80%;
+ display: flex;
+ flex-direction: row;
+ margin: 0 .5rem;
+
+ &__img {
+  background-image: url(../assets/img/two.jpg);
+  object-fit: cover;
+  height: 100%; 
+  width: 50%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 1rem;
+  border-radius: .5rem;
+}
+ &__text {
+ width: 50%;
+ display: flex;
+ justify-content: center;
+ align-items: center; 
+ flex-direction: column;
+   &-1 {
+      font-size: 2.4rem;
+      font-weight: bold;
+      
+   }
+   &-2 {
+   font-size: 1.8rem;
+
+   }
+   &-3 {
+   font-size: 1.2rem;
+   }
+   &-4 {
+   font-size: 1.5rem;
+   }
+
+ }
+
+}
+
+.footer {
+height: 10%;
+margin: 0 .5rem;
+
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ flex-direction: row;
+
+  &__instagram {
+     font-size: 1.5rem;
+     color: #000;
+     padding: .5rem;
+  }
+  &__twitter {
+    font-size: 1.5rem;
+    color: #000;
+    padding: .5rem;
+  }
+  &__facebook {
+    font-size: 1.5rem;
+    color: #000;
+    padding: .5rem;
+  }
+  &__youtube {
+    font-size: 1.5rem;
+    color: #000;
+    padding: .5rem;
+  }
+}
+
+
+
 
    // ==== Breakpoints ====
   
