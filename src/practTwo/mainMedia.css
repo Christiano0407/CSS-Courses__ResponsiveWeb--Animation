@@ -1,0 +1,54 @@
+:root {
+    --clr-mainColor:#eaeaea;
+--clr-secondaryColor:#fff;
+
+--clr-borderColor:#c1c1c1;
+
+--clr-mainText: #000000;
+--clr-secondaryText:#4b5156;
+
+--clr-themeDotBorder:#24292e;
+
+--clr-previewBg:rgb(251, 249, 243, 0.8);
+--clr-previewShadow:#f0ead6;
+
+--clr-buttonColor: #000000;
+
+--font-size-small: 1.2rem; 
+--font-size-medium: 1.5rem; 
+--font-size-medium-tall: 1.8rem; 
+--font-size-title: 2.4rem; 
+}
+
+* {
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+}
+
+html {
+font-size: 62.5%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+img {
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+h1 {
+    font-size: var(--font-size-title);
+    font-weight: bold;
+}
+p, li, label, input, textarea {
+    font-family: 'Roboto Mono', monospace;
+}
