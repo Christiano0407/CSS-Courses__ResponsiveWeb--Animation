@@ -51,6 +51,7 @@ CSS Courses with Responsive Web and Animation and Sass
 - Laptop: 1024px
 - Laptop L: 1440px
 - 4k: 2560px
+- [Bootstrap--Breakpoints](https://getbootstrap.com/docs/5.0/layout/breakpoints/)
 # Tools CSS-Responsive
 - [MediaQueri](https://mediaqueri.es/)
 - [CSS-Tricks](https://css-tricks.com/)

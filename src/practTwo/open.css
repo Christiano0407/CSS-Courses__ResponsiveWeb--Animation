@@ -97,4 +97,10 @@ p, li, label, input, textarea {
     background-color: #fff1e6;
   }
 }
+
+@media (min-width: 1400px) {
+  .container {
+    background-color: green;
+  }
+}
 /*# sourceMappingURL=open.css.map */

@@ -102,3 +102,11 @@ p, li, label, input, textarea {
         background-color: $color-2;
     }
 }
+
+       // Ultra Desktop
+$extra-mobile:1400px; 
+@media (min-width: $extra-mobile) {
+    .container {
+        background-color: green;
+    }
+}
