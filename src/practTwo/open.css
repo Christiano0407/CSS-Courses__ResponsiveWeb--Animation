@@ -42,4 +42,59 @@ h1 {
 p, li, label, input, textarea {
   font-family: 'Roboto Mono', monospace;
 }
+
+.container {
+  width: 100%;
+  height: 100vh;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  background-color: #fff;
+}
+
+.text {
+  color: var(--clr-black);
+}
+
+#size {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  -webkit-transform: translateX(-40px);
+          transform: translateX(-40px);
+  color: red;
+}
+
+@media (max-width: 320px) {
+  .container {
+    background-color: aqua;
+  }
+}
+
+@media (min-width: 425px) and (max-width: 576px) {
+  .container {
+    background-color: #52b788;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .container {
+    background-color: #bee1e6;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .container {
+    background-color: #cdb4db;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    background-color: #fff1e6;
+  }
+}
 /*# sourceMappingURL=open.css.map */

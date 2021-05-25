@@ -71,6 +71,11 @@ CSS Courses with Responsive Web and Animation and Sass
 - [Material](https://material.io/)
 # References 
 - [Majo-Ledesma](https://losapuntesdemajo.vercel.app/)
+- [DEV](https://dev.to/)
+- [Stackoverflow](https://es.stackoverflow.com/)
+- [Github-topic](https://github.com/topics)
+- [MozillaWeb](https://developer.mozilla.org/es/docs/Web/CSS/Media_Queries/Using_media_queries)
+
 # Tips CSS:
 - Font-size = rem.
 - padding and margin = em. 
