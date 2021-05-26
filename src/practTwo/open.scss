@@ -326,6 +326,8 @@ margin: 0 .5rem;
        width: 100%;
        position: absolute;
        z-index: 1;
+       opacity: .9;
+      /*  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%); */
        }
        &__text {
        width: 100%;
@@ -336,7 +338,7 @@ margin: 0 .5rem;
        justify-content: center;
        align-items: center;
            &-1 {
-             color: #fff;
+             color: #003237;
              padding: 2rem;
              font-size: 4rem;
           }

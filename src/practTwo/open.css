@@ -378,6 +378,8 @@ p, li, label, input, textarea {
     width: 100%;
     position: absolute;
     z-index: 1;
+    opacity: .9;
+    /*  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%); */
   }
   .main__text {
     width: 100%;
@@ -395,7 +397,7 @@ p, li, label, input, textarea {
             align-items: center;
   }
   .main__text-1 {
-    color: #fff;
+    color: #003237;
     padding: 2rem;
     font-size: 4rem;
   }
