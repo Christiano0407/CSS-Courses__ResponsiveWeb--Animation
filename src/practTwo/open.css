@@ -290,7 +290,7 @@ p, li, label, input, textarea {
   .footer__twitter {
     font-size: 1.5rem;
   }
-  .footer__instagram {
+  .footer__facebook {
     font-size: 1.5rem;
   }
   .footer__youtube {
@@ -351,7 +351,7 @@ p, li, label, input, textarea {
   .footer__twitter {
     font-size: 1.5rem;
   }
-  .footer__instagram {
+  .footer__facebook {
     font-size: 1.5rem;
   }
   .footer__youtube {
@@ -402,6 +402,44 @@ p, li, label, input, textarea {
   .main__text-2 {
     color: #c2c2c2;
     font-size: 2.5rem;
+    padding: 1rem;
+  }
+  .main__text-3 {
+    color: rgba(194, 194, 194, 0.7);
+    font-size: 1.5rem;
+    padding: 1rem;
+  }
+  .main__text-4 {
+    color: #fff;
+    font-size: 8rem;
+    padding: 2rem;
+  }
+  .footer {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: relative;
+    z-index: 3;
+  }
+  .footer__instagram {
+    font-size: 3rem;
+    color: rgba(194, 194, 194, 0.7);
+    padding: 1rem;
+  }
+  .footer__twitter {
+    font-size: 3rem;
+    color: rgba(194, 194, 194, 0.7);
+    padding: 1rem;
+  }
+  .footer__facebook {
+    font-size: 3rem;
+    color: rgba(194, 194, 194, 0.7);
+    padding: 1rem;
+  }
+  .footer__youtube {
+    font-size: 3rem;
+    color: rgba(194, 194, 194, 0.7);
+    padding: 1rem;
   }
 }
 

@@ -243,7 +243,7 @@ margin: 0 .5rem;
         &__twitter {
            font-size: 1.5rem;
         }
-        &__instagram {
+        &__facebook {
           font-size: 1.5rem;
         }
         &__youtube {
@@ -295,7 +295,7 @@ margin: 0 .5rem;
         &__twitter {
            font-size: 1.5rem;
         }
-        &__instagram {
+        &__facebook {
           font-size: 1.5rem;
         }
         &__youtube {
@@ -343,15 +343,46 @@ margin: 0 .5rem;
           &-2 {
               color: rgb(194, 194, 194); 
               font-size: 2.5rem;
+              padding: 1rem;
           }
           &-3 {
-
+              color: rgba(194, 194, 194, .7);
+              font-size: 1.5rem;
+              padding: 1rem;
           }
           &-4 {
-              
+            color: #fff;
+            font-size: 8rem;
+            padding: 2rem;
           }
        }
    }
+    
+   .footer {
+    justify-content: center;
+    position: relative;
+    z-index: 3;
+    &__instagram {
+       font-size: 3rem;
+       color: rgba(194, 194, 194, .7);
+       padding: 1rem;
+    }
+    &__twitter {
+       font-size: 3rem;
+       color: rgba(194, 194, 194, .7);
+       padding: 1rem;
+    }
+    &__facebook {
+      font-size: 3rem;
+      color: rgba(194, 194, 194, .7);
+      padding: 1rem;
+    }
+    &__youtube {
+      font-size: 3rem;
+      color: rgba(194, 194, 194, .7);
+      padding: 1rem;
+    }
+}
 
 
 }
