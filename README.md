@@ -67,6 +67,9 @@ CSS Courses with Responsive Web and Animation and Sass
 - [mycolor-gradients](https://mycolor.space/gradient3)
 - [webgradients](https://webgradients.com/)
 - [CSS-references](https://cssreference.io/)
+- [Css-Transform](https://developer.mozilla.org/es/docs/Web/CSS/transform)
+- [Css-Animation](https://www.w3schools.com/css/css3_animations.asp)
+- [Css-Transform](https://www.w3schools.com/css/css3_transitions.asp)
 
 # Materials
 - [Material](https://material.io/)
@@ -76,6 +79,7 @@ CSS Courses with Responsive Web and Animation and Sass
 - [Stackoverflow](https://es.stackoverflow.com/)
 - [Github-topic](https://github.com/topics)
 - [MozillaWeb](https://developer.mozilla.org/es/docs/Web/CSS/Media_Queries/Using_media_queries)
+- [W3school](https://www.w3schools.com/css/css3_object-fit.asp)
 
 # Tips CSS:
 - Font-size = rem.
