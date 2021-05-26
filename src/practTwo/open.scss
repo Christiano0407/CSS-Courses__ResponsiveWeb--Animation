@@ -120,19 +120,23 @@ p, li, label, input, textarea {
  align-items: center; 
  flex-direction: column;
    &-1 {
-      font-size: 2.4rem;
+      font-size: clamp(1.5rem, 3vw, 6rem ); 
       font-weight: bold;
-      
+      text-transform: uppercase;
    }
    &-2 {
-   font-size: 1.8rem;
-
+   font-size: clamp(1rem, 2vw, 4rem);
+   color: #000;
+   font-weight: 500;
    }
    &-3 {
-   font-size: 1.2rem;
+   font-size: clamp(.8rem, 1.2vw, 1.5rem);
+   font-weight: 400;
+   font-style: italic;
    }
    &-4 {
-   font-size: 1.5rem;
+   font-size: clamp(1.3rem, 2.5vw, 3rem);
+   font-weight: 700;
    }
 
  }
@@ -145,29 +149,47 @@ margin: 0 .5rem;
 
  display: flex;
  align-items: center;
- justify-content: space-between;
+ justify-content: flex-end;
  flex-direction: row;
 
   &__instagram {
-     font-size: 1.5rem;
+     font-size: 2rem;
      color: #000;
      padding: .5rem;
+     cursor: pointer;
+  }
+  &__instagram:hover {
+      color:#9f67c0;
   }
   &__twitter {
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: #000;
     padding: .5rem;
+    cursor: pointer;
+  }
+  &__twitter:hover {
+    color:#9f67c0;
   }
   &__facebook {
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: #000;
     padding: .5rem;
+    cursor: pointer;
+  }
+  &__facebook:hover {
+    color:#9f67c0;
   }
   &__youtube {
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: #000;
     padding: .5rem;
+    cursor: pointer;
   }
+  &__youtube:hover {
+    color:#9f67c0;
+  }
+
+
 }
 
 
@@ -184,27 +206,82 @@ margin: 0 .5rem;
 
 @media (min-width:425px) and (max-width: 576px ) {
    .container { 
-        background-color: $color-3; 
+        background-color: #fff; 
     } 
+    .header {
+        justify-content: center;
+        %__logo {
+        font-size: 4rem;
+        }
+        &__menu {
+            display: none;
+        }
+    }
+
+    .main {
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+        height: 50%;
+        &__img {
+          width: 10rem;
+          height: 10rem;
+          object-fit: cover;
+          border-radius: 100%;
+          background-size: 100%;
+        }
+        &__text {
+           margin-top: 1rem;
+
+           &__-1 {
+               padding: .5rem;
+           }
+        }
+    }
+
+    .footer {
+        justify-content: center;
+        &__instagram {
+           font-size: 1.5rem;
+        }
+        &__twitter {
+           font-size: 1.5rem;
+        }
+        &__instagram {
+          font-size: 1.5rem;
+        }
+        &__youtube {
+          font-size: 1.5rem;
+        }
+    }
 }
 
            //Tablet (768px)
 @media (min-width: 577px) and (max-width: 768px) {
    .container { 
-         background-color: $color-4; 
+         background-color: #fff; 
      } 
+   .header {
+       justify-content: center;
+       %__logo {
+       font-size: 4rem;
+       }
+       &__menu {
+           display: none;
+       }
+   }
 }
 
         // Laptop (992px)
 @media(min-width: 769px) and (max-width: 992px) {
      .container { 
-         background-color: $color-1; 
+         background-color: #fff; 
      } 
 }
        // Desktop (1200px)
 @media (min-width: 1200px) {
     .container { 
-        background-color: $color-2; 
+        background-color: #fff; 
      } 
 }
 
