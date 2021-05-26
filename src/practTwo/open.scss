@@ -1,6 +1,7 @@
 :root {
     --clr-black: #000000; 
-    --clr-white: #ffffff; 
+    --clr-white: #ffffff;
+    --clr-hover: #9f67c0; 
 
     --font-size-small: 1.2rem; 
     --font-size-medium: 1.5rem; 
@@ -200,7 +201,7 @@ margin: 0 .5rem;
    // Mobile (576px)
  @media (max-width: 320px) { 
     .container {  
-          background-color: aqua;  
+          background-color: #fff;  
       }  
  } 
 
@@ -282,13 +283,27 @@ margin: 0 .5rem;
 @media (min-width: 1200px) {
     .container { 
         background-color: #fff; 
-     } 
+     }
+    .header {
+        margin: 0 2rem;
+
+        &__logo {
+            font-size: 4rem;
+        }
+        &__menu {
+           font-size: 2rem;
+           cursor: pointer;
+        }
+        &__menu:hover {
+            color: var(--clr-hover);
+        }
+    }
 }
 
        // Ultra Desktop
 
 @media (min-width: $extra-mobile) {
     .container { 
-         background-color: green; 
+         background-color:#fff; 
      } 
 }

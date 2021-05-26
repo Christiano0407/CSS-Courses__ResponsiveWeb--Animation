@@ -1,6 +1,7 @@
 :root {
   --clr-black: #000000;
   --clr-white: #ffffff;
+  --clr-hover: #9f67c0;
   --font-size-small: 1.2rem;
   --font-size-medium: 1.5rem;
   --font-size-medium-up: 1.8rem;
@@ -234,7 +235,7 @@ p, li, label, input, textarea {
 
 @media (max-width: 320px) {
   .container {
-    background-color: aqua;
+    background-color: #fff;
   }
 }
 
@@ -320,11 +321,24 @@ p, li, label, input, textarea {
   .container {
     background-color: #fff;
   }
+  .header {
+    margin: 0 2rem;
+  }
+  .header__logo {
+    font-size: 4rem;
+  }
+  .header__menu {
+    font-size: 2rem;
+    cursor: pointer;
+  }
+  .header__menu:hover {
+    color: var(--clr-hover);
+  }
 }
 
 @media (min-width: 1400px) {
   .container {
-    background-color: green;
+    background-color: #fff;
   }
 }
 /*# sourceMappingURL=open.css.map */
