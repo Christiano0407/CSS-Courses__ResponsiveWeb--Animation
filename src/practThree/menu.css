@@ -6,6 +6,10 @@
   /*======Colors=====*/
   --clr-black: #000000;
   --clr-white: #ffffff;
+  --clr-search: #dfdede;
+  --text-color: #58555E;
+  --text-color-light: #A5A1AA;
+  --body-color: #F9F6FD;
   --clr-One: #7400b8;
   --clr-Two: #5e60ce;
   --clr-Three: #4ea8de;
@@ -43,6 +47,10 @@
   font-family: 'Roboto', sans-serif;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 img {
   -o-object-fit: cover;
      object-fit: cover;
@@ -72,4 +80,95 @@ p, li, label, input, textarea {
 h3 {
   margin: 0;
 }
+
+/* ===== header =====*/
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: var(--clr-One);
+  padding: 0 1rem;
+  z-index: var(--z-fixed);
+}
+
+.header__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: var(--header-height);
+}
+
+.header__img {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+}
+
+.header__logo {
+  color: var(--clr-white);
+  font-weight: var(--font-size-medium);
+  display: none;
+}
+
+.header__search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: .40rem .75rem;
+  border-radius: .25rem;
+}
+
+.header__input {
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: var(--clr-search);
+  border-radius: .5rem;
+  padding: .5rem;
+}
+
+.header__input::-webkit-input-placeholder {
+  font-family: var(--font-size-medium-up);
+  color: var(--text-color);
+}
+
+.header__input:-ms-input-placeholder {
+  font-family: var(--font-size-medium-up);
+  color: var(--text-color);
+}
+
+.header__input::-ms-input-placeholder {
+  font-family: var(--font-size-medium-up);
+  color: var(--text-color);
+}
+
+.header__input::placeholder {
+  font-family: var(--font-size-medium-up);
+  color: var(--text-color);
+}
+
+.header__icon {
+  margin-left: .5rem;
+}
+
+.header__icon, .header__toggle {
+  font-size: 1.5rem;
+}
+
+.header__toggle {
+  color: var(--clr-black);
+  cursor: pointer;
+}
+
+/* ======  Nav ===== */
 /*# sourceMappingURL=menu.css.map */
