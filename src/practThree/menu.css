@@ -1,0 +1,75 @@
+/*========== Variables CSS==========*/
+:root {
+  /*Header and navigation*/
+  --header-height: 3.5rem;
+  --nav-width: 219px;
+  /*======Colors=====*/
+  --clr-black: #000000;
+  --clr-white: #ffffff;
+  --clr-One: #7400b8;
+  --clr-Two: #5e60ce;
+  --clr-Three: #4ea8de;
+  --clr-Three: #48bfe3;
+  /*===Font size===*/
+  --font-size-small: 1.2rem;
+  --font-size-medium: 1.5rem;
+  --font-size-medium-up: 1.8rem;
+  --font-size-title: 2.4rem;
+  /* ===Media Queries===*/
+  /*========== Font weight ==========*/
+  --font-medium: 500;
+  --font-semi-bold: 600;
+  /*========== z index ==========*/
+  --z-fixed: 100;
+}
+
+@media screen and (min-width: 1024px) {
+  :root {
+    --font-size-small: 1.4rem;
+    --font-size-medium: 1.8rem;
+    --font-size-medium-up: 2rem;
+    --font-size-title: 2.6rem;
+  }
+}
+
+*, ::before, ::after {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+* body, ::before body, ::after body {
+  font-family: 'Roboto', sans-serif;
+}
+
+img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+p, li, label, input, textarea {
+  font-family: 'Roboto Mono', monospace;
+}
+
+h3 {
+  margin: 0;
+}
+/*# sourceMappingURL=menu.css.map */

@@ -1,0 +1,85 @@
+/*========== Variables CSS==========*/
+:root {
+    /*Header and navigation*/
+    --header-height: 3.5rem; 
+    --nav-width: 219px; 
+
+    /*======Colors=====*/
+    --clr-black: #000000; 
+    --clr-white: #ffffff;
+    --clr-One: #7400b8; 
+    --clr-Two: #5e60ce; 
+    --clr-Three: #4ea8de; 
+    --clr-Three: #48bfe3; 
+
+    /*===Font size===*/
+    --font-size-small: 1.2rem; 
+    --font-size-medium: 1.5rem; 
+    --font-size-medium-up: 1.8rem; 
+    --font-size-title: 2.4rem; 
+
+    /* ===Media Queries===*/
+    @media screen and (min-width: 1024px) {
+        --font-size-small: 1.4rem; 
+        --font-size-medium: 1.8rem; 
+        --font-size-medium-up: 2rem; 
+        --font-size-title: 2.6rem; 
+    }
+
+    /*========== Font weight ==========*/
+    --font-medium: 500;
+    --font-semi-bold: 600;
+
+    /*========== z index ==========*/
+      --z-fixed: 100;
+}
+     // Color-Pallete:
+$color-1: #cdb4db; // Mobile
+$color-2: #fff1e6; // tablet
+$color-3: #52b788; // Laptop
+$color-4: #bee1e6; // Desktop; 
+
+     // Media Queries: 
+$mobile: 576px; 
+$tablet: 768px; 
+$laptop: 992px; 
+$desktop: 1200px;
+$extra-mobile:1400px;  
+
+*, ::before, ::after  {
+    margin: 0px; 
+    padding: 0px; 
+    box-sizing: border-box;    
+
+     body {
+        font-family: 'Roboto', sans-serif;
+        
+       
+    }
+
+}
+img {
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    max-width: 100%;
+    height: auto;
+} 
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+h1 {
+    //font-size: 2.4rem;
+    text-transform: uppercase;
+}
+p, li, label, input, textarea {
+    font-family: 'Roboto Mono', monospace;
+}
+h3 {
+    margin: 0;
+}
