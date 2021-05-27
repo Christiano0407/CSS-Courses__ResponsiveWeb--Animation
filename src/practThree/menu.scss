@@ -180,7 +180,16 @@ h3 {
         font-weight: var(--font-size-title);
         margin-bottom: 2.5rem;
     }
-
+    &__list, 
+    &__items {
+        display: grid;
+    }
+    &__list {
+        gap:2.5rem;
+    }
+    &__items {
+        gap: 1.5rem;
+    }
 
 
 }

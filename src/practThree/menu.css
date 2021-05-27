@@ -210,4 +210,17 @@ h3 {
   font-weight: var(--font-size-title);
   margin-bottom: 2.5rem;
 }
+
+.nav__list, .nav__items {
+  display: -ms-grid;
+  display: grid;
+}
+
+.nav__list {
+  gap: 2.5rem;
+}
+
+.nav__items {
+  gap: 1.5rem;
+}
 /*# sourceMappingURL=menu.css.map */
