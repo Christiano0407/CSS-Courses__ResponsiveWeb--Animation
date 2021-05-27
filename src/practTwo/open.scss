@@ -356,9 +356,19 @@ margin: 0 .5rem;
        width: 100%;
        position: absolute;
        z-index: 1;
-       opacity: .9;
-     
+      height: 100vh;
       /*  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%); */
+      background-image: url(../assets/img/twoPlay.jpg);
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      background-size: cover;
+      background-position: top center;
+      object-fit: cover;
+      opacity: .75;
+      //filter: alpha(opacity=50);
+      //zoom: 1;
        }
 
        &__text {
