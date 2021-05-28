@@ -269,4 +269,62 @@ h3 {
 }
 
          /* =====  MediaQueries and Breakpoints ======*/
+@media screen and (max-width: 320px) {
+    .header {
+        &__search {
+            width: 70%;
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        padding: 1rem 3rem 0 6rem;
+    }
+
+    .header {
+        padding: 0 3rem 0 6rem;
+
+        &__container {
+            height: call(var(--header-height));
+        }
+        &__search {
+            width: 300px;
+            padding: .55rem .75rem;
+        }
+        &__toggle {
+            display: none;
+        }
+        &__logo {
+            display: block;
+        }
+        &__img {
+            width: 4rem;
+            height: 4rem;
+            order: 1;
+        }
+    }
+
+    .nav {
+        left: 0;
+        padding: 1.2rem 1.5rem 0;
+        width: 6rem;
+
+        &__items {
+            row-gap:1.7rem;
+        }
+        &__icons {
+            font-size: 1.3rem;
+        }
+        &__logo-name,
+        &__name, 
+        &__subtitle, 
+        &__dropdown-icon {
+            opacity: 0;
+            transition: .3s;
+        }
+    }
+
+
+}
 
