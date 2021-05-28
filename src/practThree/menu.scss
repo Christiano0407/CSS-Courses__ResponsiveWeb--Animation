@@ -191,5 +191,33 @@ h3 {
         gap: 1.5rem;
     }
 
+    &__subtitle {
+        font-size: var(--font-size-medium);
+        text-transform: uppercase;
+        letter-spacing: .1rem;
+        color: var(--clr-white);
+    }
+    &__link {
+        display: flex;
+        align-items: center;
+        color: var(--clr-Two);
 
+        &:hover {
+            color: var(--clr-One);
+        }
+    }
+    &__icon {
+        font-size: 1.2rem;
+        margin-right: .5rem;
+    }
+    
+
+}
+
+.show-menu {
+    left: 0;
+}
+
+.active {
+    color: var(--clr-One);
 }

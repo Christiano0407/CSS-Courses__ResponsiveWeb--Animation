@@ -223,4 +223,38 @@ h3 {
 .nav__items {
   gap: 1.5rem;
 }
+
+.nav__subtitle {
+  font-size: var(--font-size-medium);
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: var(--clr-white);
+}
+
+.nav__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: var(--clr-Two);
+}
+
+.nav__link:hover {
+  color: var(--clr-One);
+}
+
+.nav__icon {
+  font-size: 1.2rem;
+  margin-right: .5rem;
+}
+
+.show-menu {
+  left: 0;
+}
+
+.active {
+  color: var(--clr-One);
+}
 /*# sourceMappingURL=menu.css.map */
