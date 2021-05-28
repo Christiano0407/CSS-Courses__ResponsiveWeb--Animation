@@ -207,8 +207,10 @@ h3 {
 }
 
 .nav__logo {
-  font-weight: var(--font-size-title);
+  font-weight: bold;
   margin-bottom: 2.5rem;
+  color: var(--body-color);
+  font-size: var(--font-size-medium-up);
 }
 
 .nav__list, .nav__items {
@@ -238,7 +240,7 @@ h3 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: var(--clr-Two);
+  color: #979494;
 }
 
 .nav__link:hover {
@@ -250,6 +252,61 @@ h3 {
   margin-right: .5rem;
 }
 
+.nav__name {
+  font-size: var(--font-size-small);
+  font-weight: var(--font-size-medium);
+  white-space: nowrap;
+}
+
+.nav__logout {
+  margin-top: 5rem;
+}
+
+.nav__dropdown {
+  overflow: hidden;
+  max-height: 21px;
+  -webkit-transition: .4s ease-in-out;
+  transition: .4s ease-in-out;
+}
+
+.nav__dropdown-collapse {
+  background-color: var(--clr-white);
+  border-radius: .25rem;
+  margin-top: 1rem;
+}
+
+.nav__dropdown-content {
+  display: -ms-grid;
+  display: grid;
+  gap: 1rem;
+  padding: 1rem 2.5rem 1rem 2.5rem;
+}
+
+.nav__dropdown__item {
+  font-size: var(--font-size-medium-up);
+  font-weight: bold;
+  color: var(--clr-One);
+}
+
+.nav__dropdown__item:hover {
+  color: var(--clr-Two);
+}
+
+.nav__dropdown-icon {
+  margin-left: auto;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.nav__dropdown:hover {
+  max-height: 100rem;
+}
+
+.nav__dropdown:hover .nav__dropdown-icon {
+  -webkit-transform: rotate(100deg);
+          transform: rotate(100deg);
+}
+
 .show-menu {
   left: 0;
 }
@@ -257,4 +314,6 @@ h3 {
 .active {
   color: var(--clr-One);
 }
+
+/* =====  MediaQueries and Breakpoints ======*/
 /*# sourceMappingURL=menu.css.map */
