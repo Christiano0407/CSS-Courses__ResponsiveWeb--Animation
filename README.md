@@ -38,6 +38,10 @@ CSS Courses with Responsive Web and Animation and Sass
 - [Mozilla-easing-functions](https://developer.mozilla.org/en-US/docs/Web/CSS/easing-function)
 - [Mozilla-Apilamiento-ejeZ](https://developer.mozilla.org/es/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context)
 - [Mozilla-Animatons](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations)
+- [AnimateCSS](https://animate.style/)
+
+![](https://static.platzi.com/media/user_upload/Ejes-54fb8c32-0ea5-42f0-912e-53b0c601a334.jpg)
+ > Static-Platzi_Image
 
 # Options Courses:
 - [Course-HTML AND CSS](https://www.youtube.com/watch?v=mU6anWqZJcc&t=13s)
@@ -69,6 +73,8 @@ CSS Courses with Responsive Web and Animation and Sass
 - [Unsplash](https://unsplash.com/)
 - [Pexels](https://www.pexels.com/)
 - [Envato](https://envato.com/)
+
+- [CSS-Image_Article](https://evilmartians.com/chronicles/images-done-right-web-graphics-good-to-the-last-byte-optimization-techniques)
 
 # Markdown
 - [Markdown](https://markdown.es/)
