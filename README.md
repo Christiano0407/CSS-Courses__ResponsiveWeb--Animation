@@ -2,21 +2,21 @@
 CSS Courses with Responsive Web and Animation and Sass
 
 # Websites Courses
- <!--  MediaQueries_Course -->
+  > MediaQueries_Course 
 - [FreeCodeCamp](https://www.youtube.com/watch?v=aook54SsfhY)
 - [Guide-W3School](https://www.w3schools.com/html/html_responsive.asp)
 - [Mozilla-Media](https://developer.mozilla.org/es/docs/Web/CSS/Media_Queries/Using_media_queries)
 - [freecodecamp-site](https://www.freecodecamp.org/)
 - [Platzi](https://platzi.com/home)
 
-<!--Grid Layout and Animation Web -->
+ > Grid Layout and Animation Web 
 - [Platzi](https://platzi.com/home)
 - [Teffcode](https://linktr.ee/teffcode)
 - [Teffcode-quizzes](https://teffcode-community.github.io/quizzes/)
 - [Teffcode-courses](https://platzi.com/profesores/teffcode/)
 - [Teffcode-github_course](https://github.com/platzi/CSS2020)
 
-<!--SASS-BEM -->
+ > SASS-BEM 
 - [teffcode-SASSandBEM](https://github.com/teffcode/sass-workshop)
 - [SASS--FreeCodeCamp](https://www.youtube.com/watch?v=_a5j7KoflTs&t=13s)
 - [BEM-Guide](http://getbem.com/)
@@ -74,6 +74,7 @@ CSS Courses with Responsive Web and Animation and Sass
 - [Pexels](https://www.pexels.com/)
 - [Envato](https://envato.com/)
 
+ > Article-Image
 - [CSS-Image_Article](https://evilmartians.com/chronicles/images-done-right-web-graphics-good-to-the-last-byte-optimization-techniques)
 
 # Markdown
