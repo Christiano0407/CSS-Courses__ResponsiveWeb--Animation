@@ -24,12 +24,24 @@ CSS Courses with Responsive Web and Animation and Sass
 
 # Inspiration Web Site
 - [Awwards](https://www.awwwards.com/)
+- [GSAP](https://greensock.com/gsap/)
 
 # Pseudo Classes and Elements
 - [CSS-Hover](https://developer.mozilla.org/en-US/docs/Web/CSS/:hover)
 - [CSS-FOCUS](https://developer.mozilla.org/en-US/docs/Web/CSS/:focus)
 - [CSS-ACTIVE](https://developer.mozilla.org/en-US/docs/Web/CSS/:active)
 - [CSS-DISABLED](https://developer.mozilla.org/en-US/docs/Web/CSS/:disabled)
+
+# Timing-Functions: 
+- [Cubic-bezier](https://cubic-bezier.com/#.17,.67,.83,.67)
+- [easings](https://easings.net/)
+- [Mozilla-easing-functions](https://developer.mozilla.org/en-US/docs/Web/CSS/easing-function)
+- [Mozilla-Apilamiento-ejeZ](https://developer.mozilla.org/es/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context)
+
+# Options Courses:
+- [Course-HTML AND CSS](https://www.youtube.com/watch?v=mU6anWqZJcc&t=13s)
+- [Course HTML](https://www.youtube.com/watch?v=pQN-pnXPaVg&t=5s)
+- [Course CSS](https://www.youtube.com/watch?v=ieTHC78giGQ)
 # Palette Colors
 - [Adobe Colors](https://color.adobe.com/es/create/color-wheel)
 - [Coolors](https://coolors.co/)

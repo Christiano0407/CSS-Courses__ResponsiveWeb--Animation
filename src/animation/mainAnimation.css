@@ -34,3 +34,20 @@ img {
 /*TRANSFORM // TRANSITION // ANIMATION*/
 /*Propiedades CSS: Transiciones / Transformaciones / Animaciones*/
 /*Timing Functions: Planos y ejes*/
+
+/*
+Pseudo-clases:
+Es una palabra clave que se añade a los selectores y que especifica un estado especial del elemento seleccionado.
+
+Sintaxis:
+selector : pseudoclase { propiedad: valor; }
+
+Pseudo-elementos:
+los pseudo-elementos se añaden a los selectores, pero en cambio, no describen un estado especial sino que, permiten añadir estilos a una parte concreta del documento.
+siempre se escribe con dos puntos dobles
+
+Sintaxis:
+selector :: pseudo-elemento { propiedad: valor; }
+*/
+
+/*Timing Functions*/
