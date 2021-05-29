@@ -1,3 +1,13 @@
+:root{
+    --clr-white: #ffffff; 
+    --clr-black: #000000; 
+    --clr-One:#f72585; 
+    --clr-Tw:#7209b7; 
+    --clr-Three:#480ca8; 
+    --clr-Four:#4361ee; 
+    --clr-Five:#4cc9f0; 
+    --clr-Six:#e85d04; 
+}
 *,::before,::after {
     margin: 0;
     padding: 0;
@@ -6,3 +16,21 @@
 html {
     font-size: 62.5%;
 }
+body {
+    font-family: 'Titillium Web', sans-serif;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+img {
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*Propiedades CSS: Transiciones / Transformaciones / Animaciones*/
+/*Timing Functions: Planos y ejes*/
