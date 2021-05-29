@@ -4,6 +4,8 @@ CSS Courses with Responsive Web and Animation and Sass
 # Websites Courses
  <!--  MediaQueries_Course -->
 - [FreeCodeCamp](https://www.youtube.com/watch?v=aook54SsfhY)
+- [Guide-W3School](https://www.w3schools.com/html/html_responsive.asp)
+- [Mozilla-Media](https://developer.mozilla.org/es/docs/Web/CSS/Media_Queries/Using_media_queries)
 - [freecodecamp-site](https://www.freecodecamp.org/)
 - [Platzi](https://platzi.com/home)
 
@@ -13,15 +15,27 @@ CSS Courses with Responsive Web and Animation and Sass
 - [Teffcode-quizzes](https://teffcode-community.github.io/quizzes/)
 - [Teffcode-courses](https://platzi.com/profesores/teffcode/)
 - [Teffcode-github_course](https://github.com/platzi/CSS2020)
+
+<!--SASS-BEM -->
 - [teffcode-SASSandBEM](https://github.com/teffcode/sass-workshop)
+- [SASS--FreeCodeCamp](https://www.youtube.com/watch?v=_a5j7KoflTs&t=13s)
+- [BEM-Guide](http://getbem.com/)
+- [Platzi-BEM](https://platzi.com/blog/bem/?utm_source=twitter&utm_medium=organic&utm_campaign=LATAM_TW_BLOG_MF_0521-metodologia-bem)
+
 # Inspiration Web Site
 - [Awwards](https://www.awwwards.com/)
 
+# Pseudo Classes and Elements
+- [CSS-Hover](https://developer.mozilla.org/en-US/docs/Web/CSS/:hover)
+- [CSS-FOCUS](https://developer.mozilla.org/en-US/docs/Web/CSS/:focus)
+- [CSS-ACTIVE](https://developer.mozilla.org/en-US/docs/Web/CSS/:active)
+- [CSS-DISABLED](https://developer.mozilla.org/en-US/docs/Web/CSS/:disabled)
 # Palette Colors
 - [Adobe Colors](https://color.adobe.com/es/create/color-wheel)
 - [Coolors](https://coolors.co/)
 - [Gradients](https://mycolor.space/gradient3)
 - [Webgradients](https://webgradients.com/)
+- [HTML-Color](https://htmlcolorcodes.com/)
 # Fonts
 - [Adobe Fonts](https://fonts.adobe.com/)
 - [Google Fonts](https://fonts.google.com/)
@@ -59,7 +73,7 @@ CSS Courses with Responsive Web and Animation and Sass
 - Laptop L: 1440px
 - 4k: 2560px
 - [Bootstrap--Breakpoints](https://getbootstrap.com/docs/5.0/layout/breakpoints/)
-# Tools CSS-Responsive
+# Tools CSS:
 - [MediaQueri](https://mediaqueri.es/)
 - [CSS-Tricks](https://css-tricks.com/)
 - [Clippy-path](https://bennettfeely.com/clippy/)
@@ -77,6 +91,7 @@ CSS Courses with Responsive Web and Animation and Sass
 - [Css-Transform](https://developer.mozilla.org/es/docs/Web/CSS/transform)
 - [Css-Animation](https://www.w3schools.com/css/css3_animations.asp)
 - [Css-Transform](https://www.w3schools.com/css/css3_transitions.asp)
+- [HTML-COLOR](https://htmlcolorcodes.com/)
 
 # Materials
 - [Material](https://material.io/)
