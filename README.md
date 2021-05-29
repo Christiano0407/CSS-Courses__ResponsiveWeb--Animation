@@ -2,10 +2,16 @@
 CSS Courses with Responsive Web and Animation and Sass
 
 # Websites Courses
-- [FreeCodeCamp](https://www.youtube.com/watch?v=srvUrASNj0s&t=13s)
+ <!--  MediaQueries_Course -->
+- [FreeCodeCamp](https://www.youtube.com/watch?v=aook54SsfhY)
 - [freecodecamp-site](https://www.freecodecamp.org/)
 - [Platzi](https://platzi.com/home)
-- [Kevin Powel](https://www.youtube.com/kepowob/videos)
+
+<!--Grid Layout and Animation Web -->
+- [Platzi](https://platzi.com/home)
+- [Teffcode](https://linktr.ee/teffcode)
+- [Teffcode-quizzes](https://teffcode-community.github.io/quizzes/)
+- [Teffcode-courses](https://platzi.com/profesores/teffcode/)
 
 # Inspiration Web Site
 - [Awwards](https://www.awwwards.com/)
