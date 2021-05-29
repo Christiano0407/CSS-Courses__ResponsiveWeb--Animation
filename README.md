@@ -85,6 +85,8 @@ CSS Courses with Responsive Web and Animation and Sass
 - [Mydevice](https://www.mydevice.io/#compare-devices)
 - [Mediaqueri](https://mediaqueri.es/)
 - [Responsive-viewer](https://chrome.google.com/webstore/detail/responsive-viewer/inmopeiepgfljkpkidclfgbgbmfcennb)
+
+ > MediaQueries-tip
 - Media Type: screen, print, speech.
 - Media Condition: width, orientation, Specific features. 
 - Mobile: 425px
@@ -112,6 +114,7 @@ CSS Courses with Responsive Web and Animation and Sass
 - [Css-Animation](https://www.w3schools.com/css/css3_animations.asp)
 - [Css-Transform](https://www.w3schools.com/css/css3_transitions.asp)
 - [HTML-COLOR](https://htmlcolorcodes.com/)
+- [Gradient-Background](https://cssgradient.io/gradient-backgrounds/)
 
 # Materials
 - [Material](https://material.io/)
