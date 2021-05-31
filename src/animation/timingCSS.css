@@ -60,9 +60,15 @@ img {
         position: absolute;
         opacity: 0;
         position: absolute;
+
+        transition: opacity 400ms;
+        transition-delay: 400ms;
     }
     .list li:hover > ul {
         opacity: 1;
+
+        transition: opacity 400ms;
+        transition-delay: 400ms;
     }
     .list li ul li {
         position: relative;
