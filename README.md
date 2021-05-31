@@ -127,6 +127,7 @@ CSS Courses with Responsive Web and Animation and Sass
 - [W3school](https://www.w3schools.com/css/css3_object-fit.asp)
 - [CSS-Transform](https://developer.mozilla.org/en-US/docs/Web/CSS/transform)
 - [CSS-Position](https://developer.mozilla.org/es/docs/Web/CSS/position)
+- [CSS-Transitions](https://developer.mozilla.org/en-US/docs/Web/CSS/transition)
 # Tips CSS:
 - Font-size = rem.
 - padding and margin = em. 

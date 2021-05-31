@@ -70,16 +70,18 @@ position: relative;
     transform-origin:  50%;
 }
 .card {
-
+ position: absolute;
+ transform: rotate(-20px);
 }
-.card .one {
-
+.one {
+right: 50px;
 }
-.card .two {
-
+.two {
+ right: 40px;
+ bottom: 100px;
 }
-.card .three {
-
+.three {
+bottom: 20px;
 }
 
 .image__foreground {
