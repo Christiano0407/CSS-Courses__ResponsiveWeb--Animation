@@ -57,15 +57,36 @@ selector :: pseudo-elemento { propiedad: valor; }
     height: 100px;
     background: red;
 }
+.cuadro:hover {
+    transform: rotate(45deg);
+}
 .circle {
     background: yellow;
     height: 100px;
     width: 100px;
     border-radius: 50%;
     border: none;
+    margin-bottom: 2rem;
 }
 .circle:hover {
     /* transform: translate(30px, 30px); */
     /* transform: scale(2, 2); */
-    transform: translateX(150px);
+    /* transform: translateX(150px); */
+    /* transform: skew(45deg); */
+   /*  transform: rotateX(45deg); */
+   transform: scaleY(2);
+}
+
+.cuadroTwo {
+    background: violet;
+    width: 50px;
+    height: 50px;
+    border: 20px;
+    margin-bottom: 2rem;
+}
+.cuadroTwo:hover {
+    /* transform: perspective(); */
+    /* transform: translateX(100px); */
+   /*  transform: skewX(45deg); */
+   transform: rotate(145deg);
 }
