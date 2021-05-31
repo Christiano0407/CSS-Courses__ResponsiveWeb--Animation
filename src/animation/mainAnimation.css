@@ -51,3 +51,21 @@ selector :: pseudo-elemento { propiedad: valor; }
 */
 
 /*Timing Functions*/
+/*Cuadro*/
+.cuadro {
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+.circle {
+    background: yellow;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: none;
+}
+.circle:hover {
+    /* transform: translate(30px, 30px); */
+    /* transform: scale(2, 2); */
+    transform: translateX(150px);
+}
