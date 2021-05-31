@@ -81,6 +81,11 @@ img {
     background: lightblue;
 
 }
+.container__Two:hover .circle{
+    transform: translateX(400px);
+    transition: transform 1s cubic-bezier(.17,.67,1,.03);
+   
+}
 .circle {
     width: 40px;
     height: 40px;
@@ -88,11 +93,6 @@ img {
     margin-top: 1rem;
     margin-left: 1rem;
     background: black;
-}
-.circle:hover {
-    transform: translateX(400px);
-    transition: transform 1s cubic-bezier(.17,.67,1,.03);
-   
 }
 .one  {
     transition: transform 1s cubic-bezier(.17,.67,1,.03);
@@ -108,4 +108,9 @@ img {
 .three {
     transition: transform 1s cubic-bezier(0,1.82,1,-0.01);
     background: red;
+}
+.four {
+    transition: transform 1s linear;
+    transition-delay: 1s;
+    background-color: yellow;
 }

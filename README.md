@@ -126,8 +126,10 @@ CSS Courses with Responsive Web and Animation and Sass
 - [MozillaWeb](https://developer.mozilla.org/es/docs/Web/CSS/Media_Queries/Using_media_queries)
 - [W3school](https://www.w3schools.com/css/css3_object-fit.asp)
 - [CSS-Transform](https://developer.mozilla.org/en-US/docs/Web/CSS/transform)
+- [Transform](https://static.platzi.com/media/public/uploads/transformaciones_en_2d_y_3d_5ee59f29-47a6-4793-a3ef-0c2c884cf0e5.pdf)
 - [CSS-Position](https://developer.mozilla.org/es/docs/Web/CSS/position)
 - [CSS-Transitions](https://developer.mozilla.org/en-US/docs/Web/CSS/transition)
+- [Transitions](https://static.platzi.com/media/public/uploads/transiciones_2a4663d3-d90c-4b27-a69d-228c9a767b40.pdf)
 # Tips CSS:
 - Font-size = rem.
 - padding and margin = em. 
