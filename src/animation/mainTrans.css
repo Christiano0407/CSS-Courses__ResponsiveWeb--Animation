@@ -40,7 +40,8 @@ img {
     background: blue;
 }
 .cuadro:hover {
-    transform: translateX(500px);
+   transform: translateX(500px);
+   transition: transform 2s ease-in-out;
 }
 .container {
     margin-top: 3rem;
@@ -63,7 +64,48 @@ img {
 }
 .box-1 {
     background-color: red;
+    transition: transform 1.5s ease-out;
 }
 .box-2 {
     background-color: greenyellow;
+    transition: transform 1s ease-in;
+}
+.box-3 {
+    transition: transform 2s ease-in-out;
+}
+
+.container__Two {
+    margin-top: 3rem;
+    width: 600px;
+    height: 330px;
+    background: lightblue;
+
+}
+.circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    background: black;
+}
+.circle:hover {
+    transform: translateX(400px);
+    transition: transform 1s cubic-bezier(.17,.67,1,.03);
+   
+}
+.one  {
+    transition: transform 1s cubic-bezier(.17,.67,1,.03);
+    transition-delay: 0.5s;
+    background: chartreuse;
+    width: 60px;
+    height: 60px;
+}
+.two {
+    transition: transform 1s cubic-bezier(.17,.67,0,.97);
+    background: cyan;
+}
+.three {
+    transition: transform 1s cubic-bezier(0,1.82,1,-0.01);
+    background: red;
 }
