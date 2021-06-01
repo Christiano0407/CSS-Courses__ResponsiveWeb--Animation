@@ -115,3 +115,14 @@ button {
 /* .worst:hover { */
 /*     margin-top: 5px; */
 /* } */
+
+.section-Two {
+    margin-top: 1rem;
+    width: 100%;
+    height: 40vh;
+}
+       /*=== Prefers-reduced-motion ====*/
+       
+@media (prefers-reduced-motion: no-preference) {
+
+}

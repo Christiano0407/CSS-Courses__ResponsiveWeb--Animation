@@ -77,6 +77,12 @@ CSS Courses with Responsive Web and Animation and Sass
  > Article-Image
 - [CSS-Image_Article](https://evilmartians.com/chronicles/images-done-right-web-graphics-good-to-the-last-byte-optimization-techniques)
 
+ > Article-Prefers-reduced-motion
+ - [Modern-CSS](https://piccalil.li/blog/a-modern-css-reset)
+
+ > Articles-Guides CSS
+- [Guide-CSS](https://css-tricks.com/snippets/css/complete-guide-grid/)
+
 # Markdown
 - [Markdown](https://markdown.es/)
 - [Editor Md](https://pandao.github.io/editor.md/index.html)
