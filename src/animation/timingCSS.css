@@ -119,10 +119,18 @@ button {
 .section-Two {
     margin-top: 1rem;
     width: 100%;
-    height: 40vh;
+    height: 60vh;
+    background-color: aquamarine;
+}
+.card {
+    margin-left: 1rem;
+    width: 200px;
+    height: 200px;
+    border-radius: 1rem;
+    background-color: #7209b7;
 }
        /*=== Prefers-reduced-motion ====*/
-       
+
 @media (prefers-reduced-motion: no-preference) {
 
 }
