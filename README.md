@@ -95,7 +95,7 @@ CSS Courses with Responsive Web and Animation and Sass
 - Laptop L: 1440px
 - 4k: 2560px
 - [Bootstrap--Breakpoints](https://getbootstrap.com/docs/5.0/layout/breakpoints/)
-# Tools CSS:
+# Tools CSS /  Guides and Articles: 
 - [MediaQueri](https://mediaqueri.es/)
 - [CSS-Tricks](https://css-tricks.com/)
 - [Clippy-path](https://bennettfeely.com/clippy/)
@@ -115,6 +115,10 @@ CSS Courses with Responsive Web and Animation and Sass
 - [Css-Transform](https://www.w3schools.com/css/css3_transitions.asp)
 - [HTML-COLOR](https://htmlcolorcodes.com/)
 - [Gradient-Background](https://cssgradient.io/gradient-backgrounds/)
+- [CSSTrigger](https://csstriggers.com/)
+- [Hacks-CSS](https://hacks.mozilla.org/2017/08/inside-a-super-fast-css-engine-quantum-css-aka-stylo/)
+- [Will-Change_Mozilla](https://developer.mozilla.org/en-US/docs/Web/CSS/will-change)
+- [Will-Change__espanol](https://escss.blogspot.com/2014/05/will-change-propiedad-css.html)
 
 # Materials
 - [Material](https://material.io/)
