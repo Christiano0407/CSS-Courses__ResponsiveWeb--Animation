@@ -108,10 +108,10 @@ button {
 .better:hover {
   transform: translateY(5px);
 }
-.worst {
-    transition: margin-top 500ms;
-    will-change: margin-top;
-}
-.worst:hover {
-    margin-top: 5px;
-}
+/* .worst { */
+/*     transition: margin-top 500ms; */
+/*     will-change: margin-top; */
+/* } */
+/* .worst:hover { */
+/*     margin-top: 5px; */
+/* } */
