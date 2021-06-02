@@ -69,40 +69,104 @@ input:checked {
 .layer-1 {
     position: absolute;
     z-index: 1;
+    height: 600px;
+    width: 80px;
+    right: 60px;
+    bottom: 0;
+    background: #ffffff;
 }
 .layer-2 {
   position: absolute;
   z-index: 2;
+  height: 600px;
+  width: 80px;
+  left: 60px;
+  bottom: 0;
+  background: #ffffff;
 }
 .layer-3 {
   position: absolute;
   z-index: 3;
+  height: 500px;
+  width: 320px;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: 0 auto;
+  background: rgb(85, 61, 44);
+  border-radius: 20px;
 }
 .layer-4 {
   position: absolute;
   z-index: 4;
+  height: 400px;
+  width: 80px;
+  left: 30px;
+  background: #4cc9f0;
+  bottom: 0;
 }
 .layer-5 {
  position: absolute;
  z-index: 5;
+ height: 400px;
+ width: 80px;
+ background: #4cc9f0;
+ bottom: 0;
+ left: 140px;
 }
 .layer-6 {
  position: absolute;
  z-index: 6;
+ height: 300px;
+ width: 250px;
+ background: yellow;
+ bottom: 0;
+ border-radius: 20px;
+ left: 10px;
 }
 .layer-7 {
  position: absolute;
  z-index: 7;
+ height: 150px;
+ width: 80px;
+ background: blueviolet;
+ bottom: 0;
+ right: 25px;
 }
 .layer-8 {
  position: absolute;
  z-index: 8;
+ height: 150px;
+ width: 80px;
+ background: blueviolet;
+ bottom: 0;
+ right: 130px;
 }
 .layer-9 {
  position: absolute;
  z-index: 9;
+ height: 100px;
+ width: 225px;
+ background: red;
+ bottom: 0;
+ right: 10px;
+ border-radius: 10px;
+
 }
 .layer-10 {
  position: absolute;
  z-index: 10;
+ bottom: 0;
+ background: green;
+ width: 400px;
+ height: 50px;
+ border-radius: 20px;
+}
+.layer-11 {
+    position: absolute;
+    z-index: 11;
+}
+.layer-12 {
+    position: absolute;
+    z-index: 12;
 }
