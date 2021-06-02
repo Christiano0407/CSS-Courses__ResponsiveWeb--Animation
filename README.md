@@ -85,6 +85,13 @@ CSS Courses with Responsive Web and Animation and Sass
 
 > Article Accesibilad-Web
 - [Valhead](https://valhead.com/)
+
+# Animations
+> GIF Animation
+- [Platzi-Animation](https://static.platzi.com/media/public/uploads/12_principles_of_animation_14a18c8a-cc2c-492d-af3b-fae713c4fda6.gif)
+> Site Animation
+- [Css-Animation](https://cssanimation.rocks/principles/)
+- [Codepen-animation](https://codepen.io/collection/AxKOdY/)
 # Markdown
 - [Markdown](https://markdown.es/)
 - [Editor Md](https://pandao.github.io/editor.md/index.html)
