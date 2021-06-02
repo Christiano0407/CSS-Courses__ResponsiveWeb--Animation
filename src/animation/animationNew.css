@@ -121,17 +121,22 @@ top: 8px;
  margin: 0 auto;
  left: 0;
  right: 0;
- top: 30px;
+ top: 40px;
 }
 
 .head__eye {
-
+border-radius: 50%;
+height: 4px;
+width: 4px;
+position: absolute;
+top: 20px;
+background: var(--clr-black);
 }
 .head__eye--left {
-
+ left: 30px;
 }
 .head__eye--right {
-
+ right: 30px;
 }
 
     /* bunny2 */

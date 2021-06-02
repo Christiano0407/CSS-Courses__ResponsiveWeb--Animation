@@ -100,6 +100,12 @@ CSS Courses with Responsive Web and Animation and Sass
 - [Background-Pattern](https://css-tricks.com/a-few-background-patterns-sites/)
 - [Dev-Pattern](https://dev.to/cchana/explained-creating-a-zigzag-pattern-with-just-css-13g1)
 
+> After Effects a Code 
+- [CSS-AfterEffetc](https://www.smashingmagazine.com/2017/12/after-effects-css-transitions-keyframes/)
+
+> Articles Web
+- [SmashingMagazine-Code](https://www.smashingmagazine.com/)
+- [Smashing-CSS](https://www.smashingmagazine.com/category/css/)
 # Markdown
 - [Markdown](https://markdown.es/)
 - [Editor Md](https://pandao.github.io/editor.md/index.html)
