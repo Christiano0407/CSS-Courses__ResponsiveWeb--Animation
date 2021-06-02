@@ -95,6 +95,11 @@ CSS Courses with Responsive Web and Animation and Sass
 - [Mozilla-Animation](https://developer.mozilla.org/en-US/docs/Web/CSS/animation)
 - [Animation-keyframes](https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes)
 
+> Patterns
+- [MagicPattern](https://www.magicpattern.design/tools/css-backgrounds)
+- [Background-Pattern](https://css-tricks.com/a-few-background-patterns-sites/)
+- [Dev-Pattern](https://dev.to/cchana/explained-creating-a-zigzag-pattern-with-just-css-13g1)
+
 # Markdown
 - [Markdown](https://markdown.es/)
 - [Editor Md](https://pandao.github.io/editor.md/index.html)
