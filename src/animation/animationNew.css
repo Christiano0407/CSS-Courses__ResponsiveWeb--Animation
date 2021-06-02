@@ -131,6 +131,8 @@ width: 4px;
 position: absolute;
 top: 20px;
 background: var(--clr-black);
+
+animation-name: blink;
 }
 .head__eye--left {
  left: 30px;
@@ -254,4 +256,26 @@ background: var(--clr-black);
 .layer-12 {
     position: absolute;
     z-index: 12;
+}
+
+        /*Keyframes*/
+/* @keyframes duration | easing-function | delay |
+iteration-count | direction | fill-mode | play-state | name */
+
+/* @keyframes name | duration | easing-function | delay */
+
+/* @keyframes name | duration */
+
+@keyframes blink {
+    0% {
+
+    }
+
+    5% {
+
+    }
+
+    10% {
+        
+    }
 }
