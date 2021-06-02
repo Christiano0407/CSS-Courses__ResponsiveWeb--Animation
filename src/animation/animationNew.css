@@ -66,6 +66,7 @@ input:checked {
     background-color: rgb(189, 229, 255);
 }
 
+/* === Bunny1 ===*/
 .layer-1 {
     position: absolute;
     z-index: 1;
@@ -75,6 +76,34 @@ input:checked {
     bottom: 0;
     background: #ffffff;
 }
+.left-ear--outer {
+
+}
+.left-ear--inner {
+
+}
+.right-ear--outer {
+
+}
+.right-ear--inner {
+
+}
+
+.head {
+
+}
+
+.head__eye {
+
+}
+.head__eye--left {
+
+}
+.head__eye--right {
+    
+}
+
+    /* bunny2 */
 .layer-2 {
   position: absolute;
   z-index: 2;
@@ -84,6 +113,8 @@ input:checked {
   bottom: 0;
   background: #ffffff;
 }
+
+   /* muro */
 .layer-3 {
   position: absolute;
   z-index: 3;
@@ -96,6 +127,8 @@ input:checked {
   background: rgb(85, 61, 44);
   border-radius: 20px;
 }
+
+   /* conejo3 */
 .layer-4 {
   position: absolute;
   z-index: 4;
@@ -105,6 +138,8 @@ input:checked {
   background: #4cc9f0;
   bottom: 0;
 }
+
+   /* conejo4 */
 .layer-5 {
  position: absolute;
  z-index: 5;
@@ -114,6 +149,8 @@ input:checked {
  bottom: 0;
  left: 140px;
 }
+
+    /* muro */
 .layer-6 {
  position: absolute;
  z-index: 6;
@@ -124,6 +161,8 @@ input:checked {
  border-radius: 20px;
  left: 10px;
 }
+
+   /* conejo5 */
 .layer-7 {
  position: absolute;
  z-index: 7;
@@ -133,6 +172,8 @@ input:checked {
  bottom: 0;
  right: 25px;
 }
+
+   /* conejo6 */
 .layer-8 {
  position: absolute;
  z-index: 8;
@@ -142,6 +183,8 @@ input:checked {
  bottom: 0;
  right: 130px;
 }
+
+    /* muro */
 .layer-9 {
  position: absolute;
  z-index: 9;
@@ -153,6 +196,8 @@ input:checked {
  border-radius: 10px;
 
 }
+
+    /* pasto */
 .layer-10 {
  position: absolute;
  z-index: 10;
