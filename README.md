@@ -99,6 +99,12 @@ CSS Courses with Responsive Web and Animation and Sass
 - [MagicPattern](https://www.magicpattern.design/tools/css-backgrounds)
 - [Background-Pattern](https://css-tricks.com/a-few-background-patterns-sites/)
 - [Dev-Pattern](https://dev.to/cchana/explained-creating-a-zigzag-pattern-with-just-css-13g1)
+- [Mazeletter](http://mazeletter.xyz/)
+- [Tartanify](https://tartanify.com/)
+- [HeroPattern](http://www.heropatterns.com/)
+
+> SVG Background
+- [Svg-Background](https://www.svgbackgrounds.com/)
 
 > After Effects a Code 
 - [CSS-AfterEffetc](https://www.smashingmagazine.com/2017/12/after-effects-css-transitions-keyframes/)

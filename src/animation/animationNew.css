@@ -74,7 +74,7 @@ input:checked {
     width: 80px;
     right: 60px;
     bottom: 0;
-    background: rgba(255, 255, 255, 0.5);
+   /*  background: rgba(255, 255, 255, 0.5); */
 }
 .left-ear--outer {
  height: 90px;
@@ -147,14 +147,14 @@ background: var(--clr-black);
   width: 80px;
   left: 60px;
   bottom: 0;
-  background: #ffffff;
+  /* background: #ffffff; */
 }
 
    /* muro */
 .layer-3 {
   position: absolute;
   z-index: 3;
-  height: 500px;
+  height: 525px;
   width: 320px;
   right: 0;
   left: 0;
@@ -162,6 +162,9 @@ background: var(--clr-black);
   margin: 0 auto;
   background: rgb(85, 61, 44);
   border-radius: 20px;
+  border: solid  3px #000;
+
+  
 }
 
    /* conejo3 */
@@ -171,7 +174,7 @@ background: var(--clr-black);
   height: 400px;
   width: 80px;
   left: 30px;
-  background: #4cc9f0;
+  /* background: #4cc9f0; */
   bottom: 0;
 }
 
@@ -181,7 +184,7 @@ background: var(--clr-black);
  z-index: 5;
  height: 400px;
  width: 80px;
- background: #4cc9f0;
+ /* background: #4cc9f0; */
  bottom: 0;
  left: 140px;
 }
@@ -190,12 +193,13 @@ background: var(--clr-black);
 .layer-6 {
  position: absolute;
  z-index: 6;
- height: 300px;
+ height: 325px;
  width: 250px;
- background: yellow;
+ background: rgb(85, 61, 44);
  bottom: 0;
  border-radius: 20px;
  left: 10px;
+ border: solid  3px #000;
 }
 
    /* conejo5 */
@@ -204,7 +208,7 @@ background: var(--clr-black);
  z-index: 7;
  height: 150px;
  width: 80px;
- background: blueviolet;
+ /* background: blueviolet; */
  bottom: 0;
  right: 25px;
 }
@@ -215,7 +219,7 @@ background: var(--clr-black);
  z-index: 8;
  height: 150px;
  width: 80px;
- background: blueviolet;
+/*  background: blueviolet; */
  bottom: 0;
  right: 130px;
 }
@@ -224,13 +228,13 @@ background: var(--clr-black);
 .layer-9 {
  position: absolute;
  z-index: 9;
- height: 100px;
+ height: 75px;
  width: 225px;
- background: red;
+ background: rgb(85, 61, 44);
  bottom: 0;
  right: 10px;
  border-radius: 10px;
-
+ border: solid  3px #000;
 }
 
     /* pasto */
