@@ -16,9 +16,6 @@
 html {
     font-size: 62.5%;
 }
-body {
-    font-family: 'Titillium Web', sans-seri
-}
 ul {
     list-style: none;
 }
@@ -30,4 +27,20 @@ img {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+       /*Game Animation course*/
+
+body {
+    font-family: 'Titillium Web', sans-serif; 
+
+    counter-reset: game;
+}
+
+input:checked {
+ counter-increment: game;
+}
+
+.tottal-count::after {
+    content: counter(game);
 }

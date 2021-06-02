@@ -92,6 +92,9 @@ CSS Courses with Responsive Web and Animation and Sass
 > Site Animation
 - [Css-Animation](https://cssanimation.rocks/principles/)
 - [Codepen-animation](https://codepen.io/collection/AxKOdY/)
+- [Mozilla-Animation](https://developer.mozilla.org/en-US/docs/Web/CSS/animation)
+- [Animation-keyframes](https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes)
+
 # Markdown
 - [Markdown](https://markdown.es/)
 - [Editor Md](https://pandao.github.io/editor.md/index.html)
