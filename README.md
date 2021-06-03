@@ -135,6 +135,13 @@ CSS Courses with Responsive Web and Animation and Sass
 - [Optimization and Performance](https://www.youtube.com/watch?v=0Xg6r_MKGJ4)
 - [Google-Lighthouse](https://developers.google.com/web/tools/lighthouse?hl=es)
 - [Linode](https://www.linode.com/)
+> Good Practices animations / Buenas prácticas para animaciones: 
+- [Propiedades que pueden ser animadas](https://developer.mozilla.org/es/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions#propiedades_que_pueden_ser_animadas)
+- Usa dentro de lo posible propiedades que solo tengan que pasar por el proceso de Composite.
+- Si necesitas animar alguna propiedad que sea muy costosa (como width, height, left, entre otras), trata de encontrar otra propiedad que sea menos costosa con la que puedas lograr el mismo resultado (o al menos un resultado similar).
+- Evita animar muchas propiedades al mismo tiempo.
+- Si necesitas esconder elementos, normalmente se usan las propiedades opacity y visibility en vez de usar la propiedad display (ya que es una propiedad no animable.
+- Evita hacer animaciones que ocurran al hacer scroll, ya que el evento que escucha el scroll se ejecuta una gran cantidad de veces. Mejor espera a llegar a cierto punto de la pantalla y ahí ejecutas la animación.
 
 > Patterns
 - [MagicPattern](https://www.magicpattern.design/tools/css-backgrounds)
