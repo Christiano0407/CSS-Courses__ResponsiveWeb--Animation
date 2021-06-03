@@ -75,6 +75,11 @@ input:checked {
     right: 60px;
     bottom: 0;
    /*  background: rgba(255, 255, 255, 0.5); */
+
+   animation: jump 1s ease-in-out infinite;
+}
+.layer-1 input[type=checkbox] {
+
 }
 .left-ear--outer {
  height: 90px;
@@ -150,6 +155,8 @@ animation: blink 2s infinite;
   left: 60px;
   bottom: 0;
   /* background: #ffffff; */
+
+  animation: jump 3s ease-in infinite;
 }
 
    /* muro */
@@ -178,6 +185,8 @@ animation: blink 2s infinite;
   left: 30px;
   /* background: #4cc9f0; */
   bottom: 0;
+
+  animation: jump 2s cubic-bezier(.17,.67,.98,.42) infinite;
 }
 
    /* conejo4 */
@@ -189,6 +198,8 @@ animation: blink 2s infinite;
  /* background: #4cc9f0; */
  bottom: 0;
  left: 140px;
+
+ animation: jump 2s ease-in-out infinite;
 }
 
     /* muro */
@@ -213,6 +224,8 @@ animation: blink 2s infinite;
  /* background: blueviolet; */
  bottom: 0;
  right: 25px;
+
+ animation: jump 2s ease-in-out infinite;
 }
 
    /* conejo6 */
@@ -224,6 +237,8 @@ animation: blink 2s infinite;
 /*  background: blueviolet; */
  bottom: 0;
  right: 130px;
+
+ animation: jump 2s ease-in-out infinite;
 }
 
     /* muro */
@@ -280,5 +295,17 @@ iteration-count | direction | fill-mode | play-state | name */
     10% {
     transform: translate(0px, 0px);
     height: 4px;    
+    }
+}
+
+@keyframes jump {
+    0% {
+    bottom: 0px;
+    }
+    50% {
+    bottom: -80px;
+    }
+    100% {
+    bottom: 0px;
     }
 }
