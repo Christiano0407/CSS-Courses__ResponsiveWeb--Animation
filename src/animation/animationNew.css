@@ -132,7 +132,7 @@ position: absolute;
 top: 20px;
 background: var(--clr-black);
 
-animation-name: blink;
+animation: blink 2s infinite;
 }
 .head__eye--left {
  left: 30px;
@@ -258,7 +258,8 @@ animation-name: blink;
     z-index: 12;
 }
 
-        /*Keyframes*/
+        /* ==== Keyframes =====*/
+
 /* @keyframes duration | easing-function | delay |
 iteration-count | direction | fill-mode | play-state | name */
 
@@ -268,14 +269,16 @@ iteration-count | direction | fill-mode | play-state | name */
 
 @keyframes blink {
     0% {
-
+    height: 4px;
     }
 
     5% {
-
+    transform: translate(0px, 2px);
+    height: 1px;
     }
 
     10% {
-        
+    transform: translate(0px, 0px);
+    height: 4px;    
     }
 }
