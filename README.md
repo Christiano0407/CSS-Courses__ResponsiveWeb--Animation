@@ -128,8 +128,9 @@ CSS Courses with Responsive Web and Animation and Sass
 - Always try to maintain 60 FPS.
 - Animating HTML elements requires system resource.
 - The more DOM elements, the more system resources are used.
--Whenever your animate CSS property, it triggers series of events.
--There are 3 of those events (Layout, Paint, Composite).
+- Whenever your animate CSS property, it triggers series of events.
+- There are 3 of those events (Layout, Paint, Composite).
+- Opacity and Transform best composite (1 / 3).
 - [Article-webrender](https://hacks.mozilla.org/2017/10/the-whole-web-at-maximum-fps-how-webrender-gets-rid-of-jank/)
 - [Optimization and Performance](https://www.youtube.com/watch?v=0Xg6r_MKGJ4)
 - [Google-Lighthouse](https://developers.google.com/web/tools/lighthouse?hl=es)
