@@ -94,6 +94,14 @@ CSS Courses with Responsive Web and Animation and Sass
 - [Codepen-animation](https://codepen.io/collection/AxKOdY/)
 - [Mozilla-Animation](https://developer.mozilla.org/en-US/docs/Web/CSS/animation)
 - [Animation-keyframes](https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes)
+- [Animation-direction](https://developer.mozilla.org/es/docs/Web/CSS/animation-direction)
+- [Animation-fill-mode](https://developer.mozilla.org/es/docs/Web/CSS/animation-fill-mode)
+- [Animation-play-state](https://developer.mozilla.org/es/docs/Web/CSS/animation-play-state)
+
+> CSS Triggers: Layout, paint y composite / Rendimiento
+- [Csstrigger](https://csstriggers.com/)
+- [Cumulative Layout Shift-CLS](https://web.dev/cls/)
+- [Largest Contentful Paint-LCP](https://web.dev/lcp/)
 
 > Patterns
 - [MagicPattern](https://www.magicpattern.design/tools/css-backgrounds)
@@ -112,6 +120,7 @@ CSS Courses with Responsive Web and Animation and Sass
 > Articles Web
 - [SmashingMagazine-Code](https://www.smashingmagazine.com/)
 - [Smashing-CSS](https://www.smashingmagazine.com/category/css/)
+
 # Markdown
 - [Markdown](https://markdown.es/)
 - [Editor Md](https://pandao.github.io/editor.md/index.html)
@@ -160,7 +169,8 @@ CSS Courses with Responsive Web and Animation and Sass
 - [Material](https://material.io/)
 # References 
 - [Majo-Ledesma](https://losapuntesdemajo.vercel.app/)
-- [DEV](https://dev.to/)
+- [DEV_to](https://dev.to/)
+- [Web_dev](https://web.dev/)
 - [Stackoverflow](https://es.stackoverflow.com/)
 - [Github-topic](https://github.com/topics)
 - [MozillaWeb](https://developer.mozilla.org/es/docs/Web/CSS/Media_Queries/Using_media_queries)
