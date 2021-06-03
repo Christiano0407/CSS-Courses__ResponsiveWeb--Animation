@@ -107,9 +107,27 @@ CSS Courses with Responsive Web and Animation and Sass
 - [Web-Lighthouse](https://web.dev/measure/?gclid=Cj0KCQjw--GFBhDeARIsACH_kdaOBIzUOUbJJjHL4QcLrt49Be66hUeU-ySHfk5wBWgzydH1jndUstMaAhFfEALw_wcB)
 - [Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=es)
 - [Metric-render](https://web.dev/lcp/#what-elements-are-considered)
-- [Metric-change](https://w3c.github.io/hr-time/#timeorigin-attribute)
+- [Metric-measuree](https://w3c.github.io/hr-time/#timeorigin-attribute)
 - [Umbrales de Métricas](https://web.dev/defining-core-web-vitals-thresholds/)
+- [Important metrics to measure](https://web.dev/user-centric-performance-metrics/#in-the-lab)
 
+> Tools Measures
+- [Page Speed Insights](https://developers.google.com/speed/pagespeed/insights/)
+- [Web report](https://support.google.com/webmasters/answer/9205520)
+- [Web-vitals](https://github.com/GoogleChrome/web-vitals)
+- [Google report](https://developers.google.com/web/tools/chrome-user-experience-report)
+- [Measure-paint-js](https://wicg.github.io/largest-contentful-paint/)
+
+> Speedline
+- [Speedline-nodeJs](https://github.com/paulirish/speedline)
+
+> Reduce Javascript execution time
+- [Js](https://web.dev/bootup-time/)
+
+> Debugging Animation
+- [Article-webrender](https://hacks.mozilla.org/2017/10/the-whole-web-at-maximum-fps-how-webrender-gets-rid-of-jank/)
+- [Optimization and Performance](https://www.youtube.com/watch?v=0Xg6r_MKGJ4)
+- [Google-Lighthouse](https://developers.google.com/web/tools/lighthouse?hl=es)
 
 > Patterns
 - [MagicPattern](https://www.magicpattern.design/tools/css-backgrounds)
