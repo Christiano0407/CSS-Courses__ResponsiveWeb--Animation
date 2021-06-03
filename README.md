@@ -98,10 +98,18 @@ CSS Courses with Responsive Web and Animation and Sass
 - [Animation-fill-mode](https://developer.mozilla.org/es/docs/Web/CSS/animation-fill-mode)
 - [Animation-play-state](https://developer.mozilla.org/es/docs/Web/CSS/animation-play-state)
 
-> CSS Triggers: Layout, paint y composite / Rendimiento
+> CSS Triggers: Layout, paint y composite / Rendimiento-Carga:
 - [Csstrigger](https://csstriggers.com/)
 - [Cumulative Layout Shift-CLS](https://web.dev/cls/)
 - [Largest Contentful Paint-LCP](https://web.dev/lcp/)
+- [First Contentful Paint-FCP](https://web.dev/fcp/)
+- [Speed Index](https://web.dev/speed-index/)
+- [Web-Lighthouse](https://web.dev/measure/?gclid=Cj0KCQjw--GFBhDeARIsACH_kdaOBIzUOUbJJjHL4QcLrt49Be66hUeU-ySHfk5wBWgzydH1jndUstMaAhFfEALw_wcB)
+- [Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=es)
+- [Metric-render](https://web.dev/lcp/#what-elements-are-considered)
+- [Metric-change](https://w3c.github.io/hr-time/#timeorigin-attribute)
+- [Umbrales de Métricas](https://web.dev/defining-core-web-vitals-thresholds/)
+
 
 > Patterns
 - [MagicPattern](https://www.magicpattern.design/tools/css-backgrounds)
