@@ -28,7 +28,7 @@
     --body1:  16px/25px var(--fontBase); 
     --body2:  14px/22px var(--fontBase); 
     --button: bold 14px/22px var(--fontTwo); 
-    --body2:  14px/22px var(--fontBase); 
+    --caption:  12px/19px var(--fontTwo); 
 }
 *,::before,::after {
     margin: 0;
