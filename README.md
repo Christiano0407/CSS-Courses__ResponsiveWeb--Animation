@@ -89,6 +89,10 @@ CSS Courses with Responsive Web and Animation and Sass
 > Article Accesibilad-Web
 - [Valhead](https://valhead.com/)
 
+# CSS Style-Components
+> Article CSS Components
+- [Css-Components](https://onsen.io/v2/api/css.html#switch-category)
+- @import "..";  ==> style.css. / Tipo SASS.  
 # Animations
 > GIF Animation
 - [Platzi-Animation](https://static.platzi.com/media/public/uploads/12_principles_of_animation_14a18c8a-cc2c-492d-af3b-fae713c4fda6.gif)
