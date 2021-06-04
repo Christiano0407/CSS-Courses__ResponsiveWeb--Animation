@@ -1,12 +1,16 @@
 :root{
     --clr-white: #ffffff; 
     --clr-black: #000000; 
-    --clr-One:#f72585; 
-    --clr-Tw:#7209b7; 
-    --clr-Three:#480ca8; 
-    --clr-Four:#4361ee; 
+
+    --clr-One:#310A90; 
+    --clr-Tw:#42E2B8; 
+    --clr-gradient:#FAD7A1; 
+    --clr-gradient-two:#72EDF2;
+
     --clr-Five:#4cc9f0; 
     --clr-Six:#e85d04; 
+    
+    
 }
 *,::before,::after {
     margin: 0;
