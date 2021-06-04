@@ -1,4 +1,9 @@
-:root{
+/*Web Component-CSS_Buttom*/
+@import "./header.css"; 
+@import "./buttom.css"; 
+
+/* Componentes de Diseño*/
+:root {
           /*===COLOR===*/
     --clr-white: #ffffff; 
     --clr-black: #000000; 
@@ -56,39 +61,6 @@ body {
     background-color: var(--clr-gradient-two);
    /*  min-block-size: 100vh; */
 }
-
-.header {
-/*  width: 100%; */
-/*  height: 4rem; */
- background-color: var(--clr-gradient-two);
- padding: 1rem;
-
- display: flex;
- justify-content: space-between;
- align-items: center;
-}
-
-.logo {
-    object-fit: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.buttom {
-    width: 153px;
-    height: 49px;
-    padding: 1rem;
-    background-color: #310A90;
-    color: #ffffff;
-    font-size: 14px;
-    font-weight: 700;
-    border: none;
-    /* font-family: var(--fontTwo); */
-    font:var(--button); 
-    border-radius: .5rem
-}
-
                   /* ===== Mobile First ===== */
 @media screen and (max-width: 320px) {
     

@@ -1,0 +1,22 @@
+
+/* ===== Web Components =====*/
+
+.buttom {
+    width: 153px;
+    height: 49px;
+    padding: 1rem;
+    background-color: var(--clr-One); 
+    color: var(--clr-white);
+    font: var(--button); 
+    font-weight: 700;
+    border: none;
+    text-transform: uppercase;
+    /* font-family: var(--fontTwo); */
+    border-radius: 1rem
+}
+
+.buttom.is-secondary {
+    background: unset;
+    color: var(--clr-One);
+    border: 2px solid var(--clr-One);
+}

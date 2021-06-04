@@ -56,6 +56,9 @@ CSS Courses with Responsive Web and Animation and Sass
 # Fonts
 - [Adobe Fonts](https://fonts.adobe.com/)
 - [Google Fonts](https://fonts.google.com/)
+> Article Fonts
+- [Fonts-CSS](https://developer.mozilla.org/es/docs/Web/CSS/font)
+
 # NPM 
 - [npm](https://www.npmjs.com/)
 
@@ -200,6 +203,9 @@ CSS Courses with Responsive Web and Animation and Sass
 - [Css-Transform](https://www.w3schools.com/css/css3_transitions.asp)
 - [HTML-COLOR](https://htmlcolorcodes.com/)
 - [Gradient-Background](https://cssgradient.io/gradient-backgrounds/)
+- [Gradient-Magic](https://www.gradientmagic.com/)
+
+> Article CSS Render
 - [CSSTrigger](https://csstriggers.com/)
 - [Hacks-CSS](https://hacks.mozilla.org/2017/08/inside-a-super-fast-css-engine-quantum-css-aka-stylo/)
 - [Will-Change_Mozilla](https://developer.mozilla.org/en-US/docs/Web/CSS/will-change)
@@ -207,6 +213,8 @@ CSS Courses with Responsive Web and Animation and Sass
 
 # Materials
 - [Material](https://material.io/)
+- [Can I use](https://caniuse.com/css-repeating-gradients)
+
 # References 
 - [Majo-Ledesma](https://losapuntesdemajo.vercel.app/)
 - [DEV_to](https://dev.to/)
