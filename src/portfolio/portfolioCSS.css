@@ -1,6 +1,7 @@
 /*Web Component-CSS_Buttom*/
 @import "./header.css"; 
-@import "./buttom.css"; 
+@import "./buttom.css";
+@import "./button-icon.css";  
 
 /* Componentes de Diseño*/
 :root {
