@@ -1,4 +1,5 @@
 :root{
+          /*===COLOR===*/
     --clr-white: #ffffff; 
     --clr-black: #000000; 
 
@@ -9,9 +10,25 @@
 
     --clr-Five:#4cc9f0; 
     --clr-Six:#e85d04; 
-    
+
+        /*===Typography===*/
     --fontBase: 'Titillium Web', sans-serif; 
     --fontTwo: 'Poppins', sans-serif;
+
+    --font-size-small: 1.2rem; 
+    --font-size-medium: 1.5rem; 
+    --font-size-tall: 1.8rem; 
+    --font-size-title: 2.4rem; 
+
+    --headLine1: bold 95px/153.71px var(--fontBase); 
+    --headLine2: bold 59px/95px var(--fontBase); 
+    --headLine3: bold 48px/77px var(--fontBase); 
+    --headLine4: bold 34px/55px var(--fontBase); 
+    --headLine5: bold 24px/38px var(--fontBase); 
+    --body1:  16px/25px var(--fontBase); 
+    --body2:  14px/22px var(--fontBase); 
+    --button: bold 14px/22px var(--fontTwo); 
+    --body2:  14px/22px var(--fontBase); 
 }
 *,::before,::after {
     margin: 0;
@@ -34,14 +51,15 @@ img {
     background-repeat: no-repeat;
 }
 body {
-    font-family: var(--fontBase); 
+   /*  font-family: var(--fontBase);  */
+    font:var(--body1); 
     background-color: var(--clr-gradient-two);
    /*  min-block-size: 100vh; */
 }
 
 .header {
- width: 100%;
- height: 4rem;
+/*  width: 100%; */
+/*  height: 4rem; */
  background-color: var(--clr-gradient-two);
  padding: 1rem;
 
@@ -51,8 +69,6 @@ body {
 }
 
 .logo {
-    width: 70px;
-    height: 20px;
     object-fit: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -68,7 +84,9 @@ body {
     font-size: 14px;
     font-weight: 700;
     border: none;
-    font-family: var(--fontTwo);
+    /* font-family: var(--fontTwo); */
+    font:var(--button); 
+    border-radius: .5rem
 }
 
                   /* ===== Mobile First ===== */
