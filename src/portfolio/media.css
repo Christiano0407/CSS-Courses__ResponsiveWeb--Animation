@@ -1,11 +1,16 @@
                   /* ===== Mobile First ===== */
 @media screen and (max-width: 320px) {
-    
+    .hero-social {
+        text-align: center;
+    }
 }
 
 @media (min-width: 321px) and (max-width: 425px) {
-    .header {
-        max-width: 360px;
+    /* .header { */
+    /*     max-width: 360px; */
+    /* } */
+    .hero-social {
+        text-align: center;
     }
 }
 

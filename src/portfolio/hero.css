@@ -1,0 +1,33 @@
+.hero {
+/*  border: 1px solid red; */
+ padding-block-start: 16px;
+}
+.hero-image {
+    text-align: center;
+}
+.hero-image img {
+  width: 338px;
+  height: 330px;
+  object-fit: cover;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 4px;
+}
+.hero-description {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+   /*  text-align: center; */
+}
+.hero h1 {
+    font: var(--headLine3);
+    margin: 0;
+}
+.hero h1 span:nth-of-type(1) {
+ font: var(--headLine5);
+ display: block;
+}
+.hero-social {
+    padding-block-end: 24px;
+}

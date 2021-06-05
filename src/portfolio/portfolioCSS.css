@@ -63,4 +63,5 @@ body {
     font:var(--body1); 
     background-color: var(--clr-gradient-two);
    /*  min-block-size: 100vh; */
+   color: var(--clr-One);
 }
