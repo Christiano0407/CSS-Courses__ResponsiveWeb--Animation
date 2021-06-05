@@ -1,0 +1,23 @@
+.menu {
+    width: 100%;
+    margin-left: 3rem;
+
+    display: none;
+}
+.menu ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 4rem;
+}
+.menu ul  a {
+    color: var(--clr-white);
+    font: var(--button);
+    text-transform: uppercase;
+}
+/* .menu ul a:nth-of-type(1) { */
+/*     color: var(--clr-One); */
+/* } */
+.menu ul a.is-active {
+    color: var(--clr-One);
+}
