@@ -12,7 +12,8 @@
     border: none;
     text-transform: uppercase;
     /* font-family: var(--fontTwo); */
-    border-radius: 1rem
+    border-radius: 1rem; 
+    text-decoration: none;
 }
 
 .buttom.is-secondary {

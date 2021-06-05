@@ -1,0 +1,26 @@
+                  /* ===== Mobile First ===== */
+@media screen and (max-width: 320px) {
+    
+}
+
+@media (min-width: 321px) and (max-width: 425px) {
+    .header {
+        max-width: 360px;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 767px) {
+
+}
+
+@media screen and (min-width: 768px) {
+    
+}
+
+@media screen and (min-width: 1024px) {
+    
+}
+
+@media screen and (min-width: 1440px) {
+    
+}
