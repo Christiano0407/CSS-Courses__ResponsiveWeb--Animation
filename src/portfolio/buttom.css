@@ -14,10 +14,19 @@
     /* font-family: var(--fontTwo); */
     border-radius: 1rem; 
     text-decoration: none;
+    cursor: pointer;
+}
+.buttom:hover {
+    background: var(--clr-white);
+    color: var(--clr-One);
 }
 
 .buttom.is-secondary {
     background: unset;
     color: var(--clr-One);
     border: 2px solid var(--clr-One);
+}
+.buttom.is-secondary:hover {
+    border: 2px solid var(--clr-white);
+    color: var(--clr-white);
 }
