@@ -7,6 +7,7 @@
 @import "./wrapper.css"; 
 @import "./carrer.css"; 
 @import "./testimony.css"; 
+@import "./testimonyTwo.css"; 
 @import "./marvol.css"; 
 @import "./media.css"; 
 
@@ -16,7 +17,8 @@
     --clr-white: #ffffff; 
     --clr-black: #000000; 
 
-    --clr-One:#310A90; 
+    --clr-One:#310A90;
+    --clr-One-Opa: #7a67a8; 
     --clr-Tw:#42E2B8; 
     --clr-gradient:#FAD7A1; 
     --clr-gradient-two:#72EDF2;
