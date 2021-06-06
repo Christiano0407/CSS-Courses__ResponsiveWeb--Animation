@@ -8,9 +8,6 @@
     margin-top: 2rem;
 }
 
-.carrer-description {
-   /*  grid-row: 1 / 3; */
-}
 .text-One {
     grid-row: 1 / 2;
     font: var(--headLine5); 
