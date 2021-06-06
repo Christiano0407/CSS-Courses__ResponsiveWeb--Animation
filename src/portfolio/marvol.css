@@ -1,8 +1,15 @@
 .marvol {
-    border: 2px solid red;
+    margin-top: 2rem;
    }
    
-   
+   .marvol-img img {
+    width: 100%;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: .5rem;
+   }
    .marvol-description {
      display: flex;
      flex-direction: column;
