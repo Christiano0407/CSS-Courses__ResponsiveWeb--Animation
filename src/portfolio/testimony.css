@@ -1,5 +1,5 @@
 .testimony {
-
+ border: 2px solid red;
 }
 
 .testimony-image {
@@ -7,5 +7,21 @@
 }
 
 .testimony-description {
-    
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.testimony-title {
+    background: var(--clr-One);
+    align-self: flex-start;
+    color: var(--clr-white);
+    font: var(--headLine5);
+    box-shadow: -4px 4px var(--clr-white);
+    text-decoration: none;
+
+    padding-block-start: 4px;
+    padding-block-end: 4px;
+    padding-inline-end: 8px;
+    padding-inline-start: 8px;
+    margin-inline-start: 4px;
 }
