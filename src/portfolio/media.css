@@ -78,6 +78,22 @@
         order: 2;
     }
 
+    .testimonyTwo {
+      padding: 3rem;
+    }
+
+    .testimonyTwo-img img {
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        object-fit: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .testimonyTwo-description {
+        gap: 20px;
+    }
 }
 
 @media screen and (min-width: 1024px) {
