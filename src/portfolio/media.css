@@ -132,6 +132,22 @@
         order: 1;
     }
 
+    .recomendationTwo {
+        padding: 3rem;
+    }
+    .recomendationTwo-img img {
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        object-fit: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .recomendationTwo-description {
+        gap: 20px;
+    }
+
 }
 
 @media screen and (min-width: 1024px) {
