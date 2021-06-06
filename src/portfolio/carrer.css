@@ -30,11 +30,12 @@
     padding: .5rem;
     text-align: center;
     height: 100%;
-    font-weight: 700;
 
     display: flex;
     justify-content: center;
     align-items: center;
+    font: var(--headLine5);
+    font-weight: 700;
 }
 .flecha {
     grid-row: 3 / 4;
