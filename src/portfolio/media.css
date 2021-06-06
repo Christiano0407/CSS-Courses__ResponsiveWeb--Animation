@@ -52,7 +52,30 @@
     .testimony {
         display: flex;
         align-items: center;
-        
+        justify-content: center;
+        padding: 2rem;
+        margin: 0 auto;
+        gap: 1rem;
+    }
+    .testimony-img {
+     order: 2;
+    }
+    .testimony-description {
+    order: 1;
+    }
+    .marvol {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
+        margin: 0 auto;
+        gap: 1rem;
+    }
+    .marvol-img {
+        order: 1;
+    }
+    .marvol-description {
+        order: 2;
     }
 
 }
