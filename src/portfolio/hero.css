@@ -30,4 +30,7 @@
 }
 .hero-social {
     padding-block-end: 24px;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
 }
