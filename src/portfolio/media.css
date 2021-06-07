@@ -162,6 +162,11 @@
         font-weight: bold;
     }
 
+    .form {
+        max-width: 543px;
+        margin: 0 auto;
+       /*  text-align: center; */
+    }
 }
 
 @media screen and (min-width: 1024px) {

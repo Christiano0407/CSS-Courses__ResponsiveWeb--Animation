@@ -163,17 +163,22 @@
 
     </main>
 
-    <div class="formulario">
-        <form action="">
+    <div class="container-form">
+        <form action=""  class="form" method="POST" >
+            <h2>Hablemos</h2>
+            <p>Si estás interesado en trabajar conmigo para tu próximo proyecto;  
+                no dude en ponerte en contacto conmigo.
+            </p>
             <label for="form-name">Nombre Completo</label>
-            <input name="name" id="form-name" type="text" placeholder="Abraham">
+            <input required name="name" id="form-name" type="text" placeholder="Abraham">
 
             <label for="form-name">Correo electrónico</label>
-            <input name="name" id="form-name" type="text" placeholder="Abraham@gmail.com">
+            <input required name="name" id="form-name" type="text" placeholder="Abraham@gmail.com">
 
             <label for="form-name">Mensaje</label>
-            <textarea name="message" id="form-message" cols="30" rows="10" placeholder="Message"></textarea>
+            <textarea required name="message" id="form-message" cols="30" rows="10" placeholder="Message"></textarea>
            <!--  <input name="name" id="form-name" type="email" placeholder="Abraham"> -->
+            <button class="buttom" type="submit">Enviar Mensaje</button>
         </form>
         
     </div>

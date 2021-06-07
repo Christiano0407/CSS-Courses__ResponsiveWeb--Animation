@@ -1,0 +1,40 @@
+.container-form {
+    margin-top:2rem;
+    margin-bottom: 1rem;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.form h2 {
+    font: var(--headLine4);
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.form p {
+    text-align: center;
+    color: var(--clr-white);
+    font: var(--body1);
+    padding: .5rem;
+}
+.form label {
+    color: var(--clr-One);
+    font-weight: 700;
+    font: var(--button);
+}
+.form input {
+    padding: 1rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font: var(--body1);
+    margin-block-start: 8px;
+}
+.form textarea {
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    font: var(--body1);
+}
