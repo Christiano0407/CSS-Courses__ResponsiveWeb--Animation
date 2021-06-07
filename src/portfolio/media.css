@@ -42,7 +42,7 @@
         object-fit: cover;
         background-size: cover;
         background-position: center;
-        background-repeat: no-repeat;
+       background-repeat: no-repeat;
     }
    /*  .hero-image img:hover { */
    /*      transform: scale(2); */
