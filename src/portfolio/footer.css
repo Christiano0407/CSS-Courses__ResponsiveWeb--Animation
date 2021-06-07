@@ -3,10 +3,14 @@
     padding-top: 2rem;
     color: var(--clr-white);
     text-align: center;
+    align-items: center;
 }
 .footer .footer-social {
     justify-content: center;
     padding: .5rem;
+}
+.footer-text {
+    margin: 1rem 0;
 }
 .footer-copy {
     font-size: var(--caption);

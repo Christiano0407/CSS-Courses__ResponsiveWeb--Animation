@@ -148,6 +148,20 @@
         gap: 20px;
     }
 
+    .footer {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .footer-copy {
+     font: var(--caption);
+    }
+    .footer-copy span {
+        font: var(--body1);
+        font-weight: bold;
+    }
+
 }
 
 @media screen and (min-width: 1024px) {
